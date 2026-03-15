@@ -545,6 +545,8 @@ extern const device_t tkd8001_ramdac_device;
 extern const device_t tseng_ics5301_ramdac_device;
 extern const device_t tseng_ics5341_ramdac_device;
 extern const device_t tvp3026_ramdac_device;
+/* Canon Wingine (skeleton) */
+extern const device_t wingine_onboard_device;
 #    endif
 
 #endif /*VIDEO_SVGA_H*/

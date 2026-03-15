@@ -1,0 +1,385 @@
+277:Auto Detect IDs
+359:2940.rtfd
+366:{\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\f0\b\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename 2940.rtfd;\linkMarkername ;}
+368:Adaptec 2940 PCI SCSI Adapter (v4.00)
+454:MatroxMGA1064SG_PCI2MB.strings
+455:MatroxMGA1064SG_PCI4MB.strings
+456:MatroxMGA1064SG_PCI8MB.strings
+457:MatroxMGA2164W_PCI4MB.strings
+458:MatroxMGA2164W_PCI8MB.strings
+777:\b\fs36 Matrox MGA Millennium Display Adapter\
+795:\fs24 Matrox MGA Mystique display adapters, or compatible display adapters based on the Matrox MGA 1064SG chip set, with 4MB memory.\
+898:\b\fs36 Matrox MGA Millennium Display Adapter\
+910:\fs24\fc0\cf0 Matrox MGA Millennium display adapter
+911:\fc1\cf1 s, or compatible display adapters based on the Matrox MGA 2064W chip set, with 2MB memory.\
+969:All Matrox display adapters need not be set to the same display mode.  This lets you use less expensive monitors for the secondary displays, or present a UI at different resolutions or under different color models by simply dragging a window to a different 'head'.
+976:\fc0\cf0 Matrox
+979:\fc0\cf0 Matrox
+981:\fc0\cf0 Matrox
+983:\fc0\cf0 Matrox 
+986:\fs24 The Matrox display adapter has a jumper that is used to enable or disable VGA compatibility.  Consult the documentation provided with your 
+987:\fc0\cf0 Matrox
+994:\fc0\cf0 Matrox
+996:\fc0\cf0 Matrox
+1001:\fs24 Each instance of the Matrox display driver is mapped to a single\
+1002:Matrox display adapter through the "PCI Location" key in its instance table.  Each Matrox display driver instance must have an unique PCI location key.  Unpredictable results will occur if multiple driver instances share the same PCI location key.\
+1004:\fs24 When an instance of the Matrox display driver is inspected using Configure.app, the PCI location key is shown below the Display Mode box.  Before adding additional 'heads' or instances, take a note of all PCI location keys that are currently being used.  When you add an additional instance, choose one with a PCI location key that is not already in use.\
+1010:\fc0\cf0 Matrox
+1059:\b\fs36 Matrox MGA Millennium Display Adapter\
+1071:\fs24\fc0\cf0 Matrox MGA Millennium display adapter
+1072:\fc1\cf1 s, or compatible display adapters based on the Matrox MGA 2064W chip set, with 4MB memory.\
+1144:All Matrox display adapters need not be set to the same display mode.  This lets you use less expensive monitors for the secondary displays, or present a UI at different resolutions or under different color models by simply dragging a window to a different 'head'.
+1151:\fc0\cf0 Matrox
+1154:\fc0\cf0 Matrox
+1156:\fc0\cf0 Matrox
+1158:\fc0\cf0 Matrox 
+1161:\fs24 The Matrox display adapter has a jumper that is used to enable or disable VGA compatibility.  Consult the documentation provided with your 
+1162:\fc0\cf0 Matrox
+1169:\fc0\cf0 Matrox
+1171:\fc0\cf0 Matrox
+1176:\fs24 Each instance of the Matrox display driver is mapped to a single\
+1177:Matrox display adapter through the "PCI Location" key in its instance table.  Each Matrox display driver instance must have an unique PCI location key.  Unpredictable results will occur if multiple driver instances share the same PCI location key.\
+1179:\fs24 When an instance of the Matrox display driver is inspected using Configure.app, the PCI location key is shown below the Display Mode box.  Before adding additional 'heads' or instances, take a note of all PCI location keys that are currently being used.  When you add an additional instance, choose one with a PCI location key that is not already in use.\
+1185:\fc0\cf0 Matrox
+1305:"MatroxMGA2064WDisplayDriver" = "Matrox MGA1064SG";
+1306:"Long Name" = "Matrox Mystique/Mystique 220 (MGA1064SG) (2MB)";
+1309:"MatroxMGA2064WDisplayDriver" = "Matrox MGA1064SG";
+1310:"Long Name" = "Matrox Mystique/Mystique 220 (MGA1064SG) (4MB)";
+1340:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+1341:"Long Name" = "Matrox MGA Millennium (2MB)";
+1422:"MatroxMGA2064WDisplayDriver" = "Matrox MGA1064SG";
+1423:"Long Name" = "Matrox Mystique/Mystique 220 (MGA1064SG) (8MB)";
+1426:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2164W";
+1427:"Long Name" = "Matrox MGA Millennium II (4MB)";
+1508:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2164W";
+1509:"Long Name" = "Matrox MGA Millennium II (8MB or greater)";
+1512:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+1513:"Long Name" = "Matrox MGA Millennium (4MB)";
+1520:\b\fs36 Matrox MGA Millennium II Display Adapter\
+1538:\fs24 Matrox MGA Millennium II display adapters, or compatible display adapters based on the Matrox MGA 2164W chip set, with 4MB memory.\
+1626:All Matrox display adapters need not be set to the same display mode.  This lets you use less expensive monitors for the secondary displays, or present a UI at different resolutions or under different color models by simply dragging a window to a different 'head'.
+1636:\fs24 \cf0 Exactly one Matrox display adapter must have VGA compatibility enabled.  This adapter is the 'primary' display adapter and will be the display used for booting, the login panel, the Dock, alert panels, and SoftPC.  \
+1637:Configure the primary Matrox display adapter as the first instance of the Matrox display driver.  The easiest way to guarantee that this condition is met is to install the driver and configure the system for a single (primary) Matrox display adapter.\
+1646:\fs24 \cf0 Once the configuration for the primary display is working, you can add secondary Matrox display adapters in any order.  All other Matrox display adapters in the system must set jumpers for VGA compatibility disabled.  \
+1654:\fs24 \cf0 Each instance of the Matrox display driver is mapped to a single\
+1655:Matrox display adapter through the "PCI Location" key in its instance table.  Each Matrox display driver instance must have an unique PCI location key.  Unpredictable results will occur if multiple driver instances share the same PCI location key.\
+1659:\fs24 \cf0 When an instance of the Matrox display driver is inspected using Configure.app, the PCI location key is shown below the Display Mode box.  Before adding additional 'heads' or instances, take a note of all PCI location keys that are currently being used.  When you add an additional instance, choose one with a PCI location key that is not already in use.\
+1666:All displays must be driven by Matrox MGA Millennium display adapters.\
+1785:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+1786:"Long Name" = "Matrox MGA Millennium (8MB)";
+1823:{\pard\tx360\f0\b0\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename MatroxMGA2064WDisplayDriver_2MB.rtfd;\linkMarkername ;}
+1825:Matrox MGA Millennium (2MB) (v4.10)\
+1826:{{\NeXTHelpLink38 \markername ;\linkFilename MatroxMGA2064WDisplayDriver_4MB.rtfd;\linkMarkername ;}
+1828:Matrox MGA Millennium (4MB) (v4.10)\
+1829:{{\NeXTHelpLink76 \markername ;\linkFilename MatroxMGA2064WDisplayDriver_8MB.rtfd;\linkMarkername ;}
+1831:Matrox MGA Millennium (8MB) (v4.10)\
+1832:{{\NeXTHelpLink114 \markername ;\linkFilename MatroxMGA2164WDisplayDriver_4MB.rtfd;\linkMarkername MatroxMGA2164WDisplayDriver_4MB;}
+1834:Matrox MGA Millennium II (4MB) (v4.10)\
+1835:{{\NeXTHelpLink155 \markername ;\linkFilename MatroxMGA2164WDisplayDriver_8MB.rtfd;\linkMarkername MatroxMGA2164WDisplayDriver_8MB;}
+1837:Matrox MGA Millennium II (8MB or greater) (v4.10)\
+1838:{\fc1\cf1{\NeXTHelpLink207 \markername ;\linkFilename MatroxMGA1064SGDisplayDriver_2MB.rtfd;\linkMarkername ;}
+1840:Matrox MGA Mystique (2 MB) (v4.10)\
+1841:{{\NeXTHelpLink244 \markername ;\linkFilename MatroxMGA1064SGDisplayDriver_4MB.rtfd;\linkMarkername ;}
+1843:Matrox MGA Mystique (4 MB) (v4.10)\
+1844:{{\NeXTHelpLink281 \markername ;\linkFilename MatroxMGA1164SGDisplayDriver_2MB.rtfd;\linkMarkername ;}
+1846:Matrox MGA Mystique 220 (2 MB) (v4.10)\
+1847:{{\NeXTHelpLink322 \markername ;\linkFilename MatroxMGA1164SGDisplayDriver_4MB.rtfd;\linkMarkername ;}
+1849:Matrox MGA Mystique 220 (4 MB) (v4.10)\
+1850:{{\NeXTHelpLink363 \markername ;\linkFilename MatroxMGA1164SGDisplayDriver_8MB.rtfd;\linkMarkername ;}
+1852:Matrox MGA Mystique 220 (8 MB) (v4.10)\
+1932:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+1933:"Long Name" = "Matrox MGA Millennium (4MB)";
+2018:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+2019:"Long Name" = "Matrox MGA Millennium (2 MB)";
+2024:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+2025:"Long Name" = "Matrox MGA Millennium (4 MB)";
+2034:\b\fs36 Matrox MGA Millennium II Display Adapter\
+2050:Matrox MGA Millennium II display adapters, or compatible display adapters based on the Matrox MGA 2164W chip set, with 8MB or greater memory\
+2149:All Matrox display adapters need not be set to the same display mode.  This lets you use less expensive monitors for the secondary displays, or present a UI at different resolutions or under different color models by simply dragging a window to a different 'head'.
+2159:\fs24 \cf0 Exactly one Matrox display adapter must have VGA compatibility enabled.  This adapter is the 'primary' display adapter and will be the display used for booting, the login panel, the Dock, alert panels, and SoftPC.  \
+2160:Configure the primary Matrox display adapter as the first instance of the Matrox display driver.  The easiest way to guarantee that this condition is met is to install the driver and configure the system for a single (primary) Matrox display adapter.\
+2169:\fs24 \cf0 Once the configuration for the primary display is working, you can add secondary Matrox display adapters in any order.  All other Matrox display adapters in the system must set jumpers for VGA compatibility disabled.  \
+2177:\fs24 \cf0 Each instance of the Matrox display driver is mapped to a single\
+2178:Matrox display adapter through the "PCI Location" key in its instance table.  Each Matrox display driver instance must have an unique PCI location key.  Unpredictable results will occur if multiple driver instances share the same PCI location key.\
+2182:\fs24 \cf0 When an instance of the Matrox display driver is inspected using Configure.app, the PCI location key is shown below the Display Mode box.  Before adding additional 'heads' or instances, take a note of all PCI location keys that are currently being used.  When you add an additional instance, choose one with a PCI location key that is not already in use.\
+2189:All displays must be driven by Matrox MGA Millennium display adapters.\
+2257:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+2258:"Long Name" = "Matrox MGA Millennium (2MB)";
+2270:\b\fs36 Matrox MGA Millennium-Bildschirmadapter\
+2284:\fs24\fc0\cf0 Matrox MGA Millennium-Bildschirmadapter (oder kompatibler), gest
+2285:tzt auf den Chipsatz Matrox MGA 2064W mit 2 MB Speicher.
+2372:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+2373:"Long Name" = "Matrox MGA Millennium (2MB)";
+2383:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+2384:"Long Name" = "Matrox MGA Millennium (4MB)";
+2397: Number9Imagine128S2DisplayDriver
+2398:&Number9Imagine128S2DisplayDriver_reloc
+2408:"Driver Name" = "Number9Imagine128S2DisplayDriver";
+2416:"Auto Detect IDs" = "0x2339105d";
+2418:"Help File" = "Number9Imagine128S2DisplayDriver_VRAM4MB.rtfd";
+2420:"Server Name" = "Number9Imagine128S2DisplayDriver";
+2422:"Driver Version" = "PROGRAM:Number9Imagine128S2DisplayDriver PROJECT:drvNumber9Imagine128S2-2.1 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+2544:MatroxInspector = {
+2549:Number9Imagine128Inspector = {
+2575:Number9Imagine128Inspector
+2653:-Number9Imagine128S2DisplayDriver_VRAM4MB.rtfd
+2654:-Number9Imagine128S2DisplayDriver_VRAM8MB.rtfd
+2837:{{\NeXTHelpLink \markername ;\linkFilename Number9Imagine128S2DisplayDriver_VRAM4MB.rtfd;\linkMarkername;}
+2840:{{\NeXTHelpLink \markername ;\linkFilename Number9Imagine128S2DisplayDriver_VRAM8MB.rtfd;\linkMarkername;}
+2853:"Number9Imagine128S2DisplayDriver" = "#9 Imagine 128 Series 2";
+2971:"Number9Imagine128S2DisplayDriver" = "#9 Imagine 128 Series 2";
+2973:"Number9Imagine128S2DisplayDriver" = "#9 Revolution 3D";
+3001:"Number9Imagine128S2DisplayDriver" = "#9 Revolution 3D";
+3050:@(#)PROGRAM:Number9Imagine128S2DisplayDriver  PROJECT:drvNumber9Imagine128S2-2.1  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+3051:Number9Imagine128S2Inspector
+3054:Number9Imagine128S2Inspector.m
+3071:.objc_class_name_Number9Imagine128S2Inspector
+3072:_Number9Imagine128S2DisplayDriver_vers
+3317:@(#)PROGRAM:Number9Imagine128S2DisplayDriver_reloc  PROJECT:drvNumber9Imagine128S2-2.1  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+3439:Number9Imagine128S2DisplayDriver
+3442:Number9Imagine128S2DisplayDriver.m
+3447:Number9Imagine128S2DisplayDriverVersion
+3449:Number9Imagine128S2DisplayDriverKernelServerInstance
+3450:/Net/beseler/BinCache1/drvNumber9Imagine128S2/Objects/drvNumber9Imagine128S2-2.1.obj~2/i386_obj/Number9Imagine128S2DisplayDriver_reloc.tproj/Number9Imagine128S2DisplayDriver_instance.m
+3541:driverKitVersionForNumber9Imagine128S2DisplayDriver
+3543:Number9Imagine128S2DisplayDriver# 
+3548:Number9Imagine128S2DisplayDriver_instance2
+3549:.objc_category_name_Number9Imagine128S2DisplayDriver_Engine
+3550:.objc_category_name_Number9Imagine128S2DisplayDriver_ProgramDAC
+3551:.objc_category_name_Number9Imagine128S2DisplayDriver_private
+3552:.objc_class_name_Number9Imagine128S2DisplayDriver
+3553:.objc_class_name_Number9Imagine128S2DisplayDriverKernelServerInstance
+3554:.objc_class_name_Number9Imagine128S2DisplayDriverVersion
+3555:_Number9Imagine128S2DisplayDriver_reloc_vers
+3579:_Number9Imagine128S2DisplayDriver_instance
+3771:"Driver Name" = "Number9Imagine128S2DisplayDriver";
+3779:"Auto Detect IDs" = "0x2339105d";
+3781:"Help File" = "Number9Imagine128S2DisplayDriver_VRAM8MB.rtfd";
+3783:"Server Name" = "Number9Imagine128S2DisplayDriver";
+3785:"Driver Version" = "PROGRAM:Number9Imagine128S2DisplayDriver PROJECT:drvNumber9Imagine128S2-2.1 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+3789:"Driver Name" = "Number9Imagine128S2DisplayDriver";
+3797:"Auto Detect IDs" = "0x493d105d";
+3801:"Server Name" = "Number9Imagine128S2DisplayDriver";
+3803:"Driver Version" = "PROGRAM:Number9Imagine128S2DisplayDriver PROJECT:drvNumber9Imagine128S2-2.1 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+3903:"Driver Name" = "Number9Imagine128S2DisplayDriver";
+3911:"Auto Detect IDs" = "0x493d105d";
+3915:"Server Name" = "Number9Imagine128S2DisplayDriver";
+3917:"Driver Version" = "PROGRAM:Number9Imagine128S2DisplayDriver PROJECT:drvNumber9Imagine128S2-2.1 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+4493:MatroxInspector = {
+4523:Adaptec2940SCSIDriver.config
+4524:"MatroxMGA2064WDisplayDriver.config
+4525:'Number9Imagine128S2DisplayDriver.config
+4530:"Adaptec2940SCSIDriver" = "Adaptec 2940";
+4531:"Long Name" = "Adaptec 2940 PCI SCSI Adapter";
+4537:MatroxMGA1064SG_PCI2MB.modes
+4538:MatroxMGA1064SG_PCI2MB.table
+4539:MatroxMGA1064SG_PCI4MB.modes
+4540:MatroxMGA1064SG_PCI4MB.table
+4541:MatroxMGA1064SG_PCI8MB.modes
+4542:MatroxMGA1064SG_PCI8MB.table
+4543:MatroxMGA2064WDisplayDriver
+4544:!MatroxMGA2064WDisplayDriver_reloc
+4545:MatroxMGA2164W_PCI4MB.modes
+4546:MatroxMGA2164W_PCI4MB.table
+4547:MatroxMGA2164W_PCI8MB.modes
+4548:MatroxMGA2164W_PCI8MB.table
+4555:"Title" = "Matrox MGA 2064W (2MB)";
+4559:"Driver Name" = "MatroxMGA2064WDisplayDriver";
+4567:"Auto Detect IDs" = "0x0519102B";
+4569:"FB Address" = "";"Server Name" = "MatroxMGA2064WDisplayDriver";
+4570:"Driver Version" = "PROGRAM:MatroxMGA2064WDisplayDriver PROJECT:drvMatroxMGA2064W-16.5.7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+4579:MatroxInspector
+4857:$MatroxMGA2064WDisplayDriver_2MB.rtfd
+4858:$MatroxMGA2064WDisplayDriver_4MB.rtfd
+4859:$MatroxMGA2064WDisplayDriver_8MB.rtfd
+4944:\b\fs36 Matrox MGA Millennium Display Adapter\
+4962:Matrox MGA Mystique 220 display adapters, or compatible display adapters based on the Matrox MGA 1164SG chip set, with 8MB memory\
+5132:\b\fs36 Matrox MGA Millennium Display Adapter\
+5144:Matrox MGA Millennium display adapters, or compatible display adapters based on the Matrox MGA 2064W chip set, with 8MB memory\
+5218:All Matrox display adapters need not be set to the same display mode.  This lets you use less expensive monitors for the secondary displays, or present a UI at different resolutions or under different color models by simply dragging a window to a different 'head'.
+5225:\fc0\cf0 Matrox
+5228:\fc0\cf0 Matrox
+5230:\fc0\cf0 Matrox
+5232:\fc0\cf0 Matrox 
+5235:\fs24 The Matrox display adapter has a jumper that is used to enable or disable VGA compatibility.  Consult the documentation provided with your 
+5236:\fc0\cf0 Matrox
+5243:\fc0\cf0 Matrox
+5245:\fc0\cf0 Matrox
+5250:\fs24 Each instance of the Matrox display driver is mapped to a single\
+5251:Matrox display adapter through the "PCI Location" key in its instance table.  Each Matrox display driver instance must have an unique PCI location key.  Unpredictable results will occur if multiple driver instances share the same PCI location key.\
+5253:\fs24 When an instance of the Matrox display driver is inspected using Configure.app, the PCI location key is shown below the Display Mode box.  Before adding additional 'heads' or instances, take a note of all PCI location keys that are currently being used.  When you add an additional instance, choose one with a PCI location key that is not already in use.\
+5259:\fc0\cf0 Matrox
+5276:{\pard\tx360\f0\b0\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename MatroxMGA2064WDisplayDriver_2MB.rtfd;\linkMarkername ;}
+5278:Matrox MGA Millennium (2 MB) (V3.30)\
+5279:{{\NeXTHelpLink39 \markername ;\linkFilename MatroxMGA2064WDisplayDriver_4MB.rtfd;\linkMarkername ;}
+5281:Matrox MGA Millennium (4 MB) (V3.30)\
+5282:{\pard\tx360\fc0\cf0{\NeXTHelpLink78 \markername ;\linkFilename MatroxMGA2064WDisplayDriver_8MB.rtfd;\linkMarkername ;}
+5284:Matrox MGA Millennium (4 MB) (V3.30)\
+5313:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+5314:"Long Name" = "Matrox MGA Millennium (2 MB)";
+5330:\b\fs36 Matrox MGA Millennium-Bildschirmadapter\
+5344:\fs24\fc0\cf0 Matrox MGA Millennium-Bildschirmadapter (oder kompatibler), gest
+5345:tzt auf den Chipsatz Matrox MGA 2064W mit 4 MB Speicher.
+5534:"Title" = "Matrox Mystique/Mystique 220 (MGA1064SG) (2MB)";
+5538:"Driver Name" = "MatroxMGA1064SGDisplayDriver";
+5546:"Auto Detect IDs" = "0x051A102B 0x051E102B";
+5549:"Server Name" = "MatroxMGA2064WDisplayDriver";
+5550:"Driver Version" = "PROGRAM:MatroxMGA2064WDisplayDriver PROJECT:drvMatroxMGA2064W-16.5.7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+5558:\b\fs36 Matrox MGA Millennium-Bildschirmadapter
+5572:\fs24\fc0\cf0 Matrox MGA Millennium-Bildschirmadapter (oder kompatibler), \
+5574:tzt auf den Chipsatz Matrox MGA 2064W mit 8 MB \
+5673:"MatroxMGA2064WDisplayDriver" = "Matrox MGA2064W";
+5674:"Long Name" = "Matrox MGA Millennium (4 MB)";
+5683:"Title" = "Matrox Mystique/Mystique 220 (MGA1064SG) (4MB)";
+5687:"Driver Name" = "MatroxMGA1064SGDisplayDriver";
+5695:"Auto Detect IDs" = "0x051A102B 0x051E102B";
+5698:"Server Name" = "MatroxMGA2064WDisplayDriver";
+5699:"Driver Version" = "PROGRAM:MatroxMGA2064WDisplayDriver PROJECT:drvMatroxMGA2064W-16.5.7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+5891:"Title" = "Matrox Mystique/Mystique 220 (MGA1064SG) (8MB)";
+5895:"Driver Name" = "MatroxMGA1064SGDisplayDriver";
+5903:"Auto Detect IDs" = "0x051A102B 0x051E102B";
+5906:"Server Name" = "MatroxMGA2064WDisplayDriver";
+5907:"Driver Version" = "PROGRAM:MatroxMGA2064WDisplayDriver PROJECT:drvMatroxMGA2064W-16.5.7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+5908:"Title" = "Matrox MGA 2164W (4MB)";
+5911:"Driver Name" = "MatroxMGA2164WDisplayDriver";
+5919:"Auto Detect IDs" = "0x051B102B 0x051F102B";
+5923:"Server Name" = "MatroxMGA2064WDisplayDriver";
+5925:"Driver Version" = "PROGRAM:MatroxMGA2064WDisplayDriver PROJECT:drvMatroxMGA2064W-16.5.7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+5973:@(#)PROGRAM:MatroxMGA2064WDisplayDriver  PROJECT:drvMatroxMGA2064W-16.5.7  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+5974:MatroxInspector
+5977:MatroxInspector.m
+5994:.objc_class_name_MatroxInspector
+5995:_MatroxMGA2064WDisplayDriver_vers
+6088:%s: Matrox MGA2064W not found
+6101:MatroxMGAXX64WDisplayDriver
+6120:MatroxMGA2064WDisplayDriver
+6124:MatroxMGA1064SGDisplayDriver
+6134:@(#)PROGRAM:MatroxMGA2064WDisplayDriver_reloc  PROJECT:drvMatroxMGA2064W-16.5.7  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+6274:MatroxMGAXX64DisplayDriver
+6277:MatroxMGAXX64DisplayDriver.m
+6278:MatroxMGA2164WDisplayDriver
+6279:MatroxMGA2164WDisplayDriver.m
+6280:MatroxMGA2064WDisplayDriver
+6281:MatroxMGA2064WDisplayDriver.m
+6282:MatroxMGA1064SGDisplayDriver
+6283:MatroxMGA1064SGDisplayDriver.m
+6294:MatroxMGA2064WDisplayDriverVersion
+6296:MatroxMGA2064WDisplayDriverKernelServerInstance
+6297:/Net/beseler/BinCache1/drvMatroxMGA2064W/Objects/drvMatroxMGA2064W-16.5.7.obj~2/i386_obj/MatroxMGA2064WDisplayDriver_reloc.tproj/MatroxMGA2064WDisplayDriver_instance.m
+6440:driverKitVersionForMatroxMGA2064WDisplayDriver
+6442:MatroxMGA2064WDisplayDriver# 
+6447:MatroxMGA2064WDisplayDriver_instance2
+6448:.objc_category_name_MatroxMGAXX64DisplayDriver_ProgramDAC
+6449:.objc_category_name_MatroxMGAXX64DisplayDriver_accelerated
+6450:.objc_category_name_MatroxMGAXX64DisplayDriver_dpms
+6451:.objc_category_name_MatroxMGAXX64DisplayDriver_eprom
+6452:.objc_category_name_MatroxMGAXX64DisplayDriver_vidparm
+6453:.objc_class_name_MatroxMGA1064SGDisplayDriver
+6454:.objc_class_name_MatroxMGA2064WDisplayDriver
+6455:.objc_class_name_MatroxMGA2064WDisplayDriverKernelServerInstance
+6456:.objc_class_name_MatroxMGA2064WDisplayDriverVersion
+6457:.objc_class_name_MatroxMGA2164WDisplayDriver
+6458:.objc_class_name_MatroxMGAXX64DisplayDriver
+6459:_MatroxMGA2064WDisplayDriver_reloc_vers
+6473:_MatroxMGA2064WDisplayDriver_instance
+6612:"Title" = "Matrox MGA 2164W (8MB or greater)";
+6615:"Driver Name" = "MatroxMGA2164WDisplayDriver";
+6623:"Auto Detect IDs" = "0x051B102B 0x051F102B";
+6627:"Server Name" = "MatroxMGA2064WDisplayDriver";
+6629:"Driver Version" = "PROGRAM:MatroxMGA2064WDisplayDriver PROJECT:drvMatroxMGA2064W-16.5.7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+6876:"Title" = "Matrox MGA 2064W (4MB)";
+6880:"Driver Name" = "MatroxMGA2064WDisplayDriver";
+6888:"Auto Detect IDs" = "0x0519102B";
+6891:"Server Name" = "MatroxMGA2064WDisplayDriver";
+6892:"Driver Version" = "PROGRAM:MatroxMGA2064WDisplayDriver PROJECT:drvMatroxMGA2064W-16.5.7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+7004:"Title" = "Matrox MGA 2064W (8MB)";
+7008:"Driver Name" = "MatroxMGA2064WDisplayDriver";
+7016:"Auto Detect IDs" = "0x0519102B";
+7019:"Server Name" = "MatroxMGA2064WDisplayDriver";
+7020:"Driver Version" = "PROGRAM:MatroxMGA2064WDisplayDriver PROJECT:drvMatroxMGA2064W-16.5.7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+7060:"Driver Name" = "YamahaOPL701BAudio";
+7374:"Auto Detect IDs" = "YMH0030 YMH0020";
+7377:"Driver Name" = "YamahaOPLAudio";
+7994:Adaptec2940SCSIDriver
+7995:Adaptec2940SCSIDriver_reloc
+8044:@(#)PROGRAM:Adaptec2940SCSIDriver  PROJECT:drvAdaptec2940-19.2  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+8074:_Adaptec2940SCSIDriver_vers
+8080:"Title" = "Adaptec2940";
+8084:"Class Names" = "SCSIBus Adaptec2940";
+8093:"Auto Detect IDs" = "0x00789004&0x00ffffff";
+8098:"Server Name" = "Adaptec2940SCSIDriver";
+8099:"Driver Version" = "PROGRAM:Adaptec2940SCSIDriver PROJECT:drvAdaptec2940-19.2 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+8190:Adaptec2940: Can't get configSpace; ABORTING
+8191:Adaptec2940: Bogus config info (IRQ %d, Base 0x%x
+8192:Adaptec2940: Multiple I/O Port Bases Found
+8193:Adaptec2940: No I/O Port Base Found
+8194:Adaptec2940: Unable to reserve IRQ %d
+8195:Adaptec2940: Unable to reserve port range 0x%x-0x%x
+8196:Adaptec2940: [super initFromDeviceDescription]failed
+8197:Adaptec2940: Can't find device using getPCIdevice (%s)
+8198:Adaptec2940: HIM Layer Can't find Host Adaptor atBus %d Device %d
+8199:Adaptec2940: Host Adapter at Bus %d Device %d notenabled
+8200:Adaptec2940: [super startIOThread] failed
+8202:Adaptec2940: Illegal Bus Type (%s) in Instance table
+8208:a2940_%d
+8209:Adaptec2940
+8212:Adaptec2940: enableAllInterrupts returned %d
+8213:2940 Host Adapter
+8214:Adaptec %s found at Bus %d Device %d
+8221:Adaptec2940: Missed Interrupt
+8224:A2940_AutoSense
+8228:A2940_CmdQueue
+8230:A2940_Sync
+8265:Adaptec2940: Improper IRQ in Configuration (HA IRQ = %d, Config IRQ = %d)
+8266:Adaptec2940: kernel base addrs 0x%x, HIM base addrs 0x%x
+8267:Adaptec2940: hspStruct larger thanpage size
+8268:2940: Invalid MaxTargets (%d)
+8269:Adaptec2940: Couldn't initialize Host Adaptor (PH_InitHA() returned %d
+8270:Adaptec2940 timeout
+8271:a2940Timeout: msg_send_from_kernel() returned %d
+8272:SCSIBus2940: [super initFromDeviceDescription] Failed for channel %d
+8275:@(#)PROGRAM:Adaptec2940SCSIDriver_reloc  PROJECT:drvAdaptec2940-19.2  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+8276:Adaptec2940
+8279:A2940Exported
+8280:A2940.m
+8284:A2940Thread.m
+8289:Adaptec2940SCSIDriverVersion
+8291:Adaptec2940SCSIDriverKernelServerInstance
+8292:/Net/beseler/BinCache1/drvAdaptec2940/Objects/drvAdaptec2940-19.2.obj~4/i386_obj/Adaptec2940SCSIDriver_reloc.tproj/Adaptec2940SCSIDriver_instance.m
+8414:driverKitVersionForAdaptec2940SCSIDriver
+8416:Adaptec2940SCSIDriver# 
+8421:Adaptec2940SCSIDriver_instance2
+8422:.objc_category_name_Adaptec2940_IOThread
+8424:.objc_class_name_Adaptec2940
+8425:.objc_class_name_Adaptec2940SCSIDriverKernelServerInstance
+8426:.objc_class_name_Adaptec2940SCSIDriverVersion
+8428:_Adaptec2940SCSIDriver_reloc_vers
+8562:_Adaptec2940SCSIDriver_instance
+8629: }\pard\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\tx5400\tx5760\tx6120\tx6480\tx6840\tx7200\tx7560\f0\b\i0\ulnone\fs36\li360\fc1\cf1 Adaptec 2940 PCI SCSI Adapter \
+8642:\pard\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\tx5400\tx5760\tx6120\tx6480\tx6840\tx7200\tx7560\fs24\li360\fc0\cf0 Adaptec AHA-2940 PCI SCSI Adapter\
+8643:Adaptec AHA-2940W PCI Wide SCSI Adapter\
+8644:Adaptec AHA-2940UW PCI Ultra Wide SCSI Adapter\
+8646:\fs24 The Adaptec 2940 SCSI Host Adapter Driver supports Command \
+8651:you must use both the Adaptec 2940 SCSI Adapter's SCSISelect \
+8656:the Adaptec 2940 SCSI Adapter for information on these features. \
+8658:\b\fs24\fc0\cf0 Installing and Configuring the Adaptec 2940 SCSI Adapter \
+8661:Install the Adaptec 2940 adapter in your computer.  \
+8663:BIOS to recognize the Adaptec 2940 adapter. \
+8664:At boot time, use Control-A to invoke the Adaptec 2940 SCSI \
+8667:\b0  Consult the manual(s) for the Adaptec 2940 SCSI \
+8690:connected to the 2940 via an external SCSI cable.  \
+8692:\b\fs24\fc0\cf0 Configuring the Adaptec 2940 SCSI Device Driver  \
+8700:If you're planning to use the Adaptec 2940 PCI SCSI Adapter in\
+8706:"Adaptec 2940 PCI SCSI Adapter"  from the list, and click Add. \
+8708:\b0  If the Adaptec 2940 PCI SCSI Adapter device driver does\
+8745:See NeXTanswer 1760 for an overview of this Adaptec 2940 \
+8747:%MatroxMGA1064SGDisplayDriver_2MB.rtfd
+8748:%MatroxMGA1064SGDisplayDriver_4MB.rtfd
+8749:%MatroxMGA1064SGDisplayDriver_8MB.rtfd
+8750:$MatroxMGA2064WDisplayDriver_2MB.rtfd
+8751:$MatroxMGA2064WDisplayDriver_4MB.rtfd
+8752:$MatroxMGA2064WDisplayDriver_8MB.rtfd
+8753:$MatroxMGA2164WDisplayDriver_4MB.rtfd
+8754:$MatroxMGA2164WDisplayDriver_8MB.rtfd
+9031:\b\fs36 Matrox MGA Millennium Display Adapter\
+9049:\fs24 Matrox MGA Mystique display adapters, or compatible display adapters based on the Matrox MGA 1064SG chip set, with 2MB memory.\

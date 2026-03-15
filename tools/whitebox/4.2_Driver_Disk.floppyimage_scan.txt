@@ -1,0 +1,316 @@
+249:Auto Detect IDs
+374:Adaptec1542B.config
+375:Adaptec2740.config
+376:Adaptec2940SCSIDriver.config
+378:BusLogicSCSIDriver.config
+379:BusLogicFPSCSI.config
+385:S3ViRGEDisplayDriver.config
+731:Auto Detect IDs
+1210:@(#)PROGRAM:AIC6X60SCSI_reloc  PROJECT:drvAdaptec6X60-9  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+1223:Adaptec2940: Can't get configSpace; ABORTING
+1224:Adaptec2940: Bogus config info (IRQ %d, Base 0x%x
+1225:Adaptec2940: Multiple I/O Port Bases Found
+1226:Adaptec2940: No I/O Port Base Found
+1227:Adaptec2940: Unable to reserve IRQ %d
+1228:Adaptec2940: Unable to reserve port range 0x%x-0x%x
+1229:Adaptec2940: [super initFromDeviceDescription]failed
+1230:Adaptec2940: Can't find device using getPCIdevice (%s)
+1231:Adaptec2940: HIM Layer Can't find Host Adaptor atBus %d Device %d
+1232:Adaptec2940: Host Adapter at Bus %d Device %d notenabled
+1233:Adaptec2940: [super startIOThread] failed
+1235:Adaptec2940: Illegal Bus Type (%s) in Instance table
+1241:a2940_%d
+1242:Adaptec2940
+1245:Adaptec2940: enableAllInterrupts returned %d
+1246:2940 Host Adapter
+1247:Adaptec %s found at Bus %d Device %d
+1254:Adaptec2940: Missed Interrupt
+1257:A2940_AutoSense
+1261:A2940_CmdQueue
+1263:A2940_Sync
+1298:Adaptec2940: Improper IRQ in Configuration (HA IRQ = %d, Config IRQ = %d)
+1299:Adaptec2940: kernel base addrs 0x%x, HIM base addrs 0x%x
+1300:Adaptec2940: hspStruct larger thanpage size
+1301:2940: Invalid MaxTargets (%d)
+1302:Adaptec2940: Couldn't initialize Host Adaptor (PH_InitHA() returned %d
+1303:Adaptec2940 timeout
+1304:a2940Timeout: msg_send_from_kernel() returned %d
+1305:SCSIBus2940: [super initFromDeviceDescription] Failed for channel %d
+1308:@(#)PROGRAM:Adaptec2940SCSIDriver_reloc  PROJECT:drvAdaptec2940-19  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+1309:"Title" = "Adaptec 2740";
+1314:"Class Names" = "SCSIBus7770 Adaptec7770";
+1322:"Auto Detect IDs" = "0x04907771 0x04907770";
+1325:"Server Name" = "Adaptec2740";
+1326:"Driver Version" = "PROGRAM:Adaptec2740 PROJECT:drvAdaptec2740-10 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+1327:"Title" = "Adaptec 2840";
+1332:"Class Names" = "SCSIBus7770 Adaptec7770";
+1342:"Server Name" = "Adaptec2740";
+1343:"Driver Version" = "PROGRAM:Adaptec2740 PROJECT:drvAdaptec2740-10 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+1345:Adaptec2940SCSIDriver_reloc
+1348:"Adaptec2940SCSIDriver" = "Adaptec 2940";
+1349:"Long Name" = "Adaptec 2940 PCI SCSI Adapter";
+1350:"Title" = "Adaptec2940";
+1354:"Class Names" = "SCSIBus Adaptec2940";
+1363:"Auto Detect IDs" = "0x00789004&0x00ffffff";
+1368:"Server Name" = "Adaptec2940SCSIDriver";
+1369:"Driver Version" = "PROGRAM:Adaptec2940SCSIDriver PROJECT:drvAdaptec2940-19 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+1379:Adaptec154x Not Found at port 0x%x
+1388:Adaptec154x at port 0x%x irq %d
+1402:@(#)PROGRAM:Adaptec1542B_reloc  PROJECT:drvAdaptec1542B-10  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+1436:BusLogic
+1437:BusLogic: can't determine port base!
+1438:BusLogic Board not found at port 0x%x
+1448:BusLogic controller at port 0x%x
+1449:BusLogic: %d Targets per Bus; Host ID = %d
+1471:@(#)PROGRAM:BusLogicSCSIDriver_reloc  PROJECT:drvBusLogic-8  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+1548:BusLogicSCSIDriver_reloc
+1550:BusLogic_ISA.table
+1551:BusLogic_EISA.table
+1552:BusLogic_PCI.table
+1554:BusLogic_ISA.strings
+1555:BusLogic_EISA.strings
+1556:BusLogic_PCI.strings
+1557:"BusLogicSCSIDriver" = "BusLogic";
+1558:"Long Name" = "BusLogic VL SCSI Adapter";
+1559:"BusLogicSCSIDriver" = "BusLogic";
+1560:"Long Name" = "BusLogic ISA SCSI Adapter";
+1561:"BusLogicSCSIDriver" = "BusLogic";
+1562:"Long Name" = "BusLogic EISA SCSI Adapter";
+1563:.objc_category_name_Adaptec2940_IOThread
+1565:.objc_class_name_Adaptec2940
+1566:.objc_class_name_Adaptec2940SCSIDriverKernelServerInstance
+1567:.objc_class_name_Adaptec2940SCSIDriverVersion
+1569:_Adaptec2940SCSIDriver_reloc_vers
+1703:_Adaptec2940SCSIDriver_instance
+1740:"AIC6X60SCSI" = "Adaptec PCMCIA 6360";
+1741:"Long Name" = "Adaptec PCMCIA to 6360 SCSI Adapter";
+1742:"AIC6X60SCSI" = "Adaptec 6x60";
+1743:"Long Name" = "Adaptec 6x60 Series SCSI Adapter";
+1744:"Title" = "Adaptec PCMCIA 6360";
+1757:"Auto Detect IDs" = "MFR=AdaptecInc.,PROD=APA-1460SCSIHostAdapter";
+1759:"Driver Version" = "PROGRAM:AIC6X60SCSI PROJECT:drvAdaptec6X60-9 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+1760:"Title" = "Adaptec 6x60";
+1765:"Driver Name" = "AIC6X60";
+1773:"Driver Version" = "PROGRAM:AIC6X60SCSI PROJECT:drvAdaptec6X60-9 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+1854:Adaptec1542BVersion
+1855:Adaptec1542BKernelServerInstance
+1856:/Net/beseler/BinCache1/drvAdaptec1542B/Objects/drvAdaptec1542B-10.obj~4/i386_obj/Adaptec1542B_reloc.tproj/Adaptec1542B_instance.m
+1948:driverKitVersionForAdaptec1542B
+1950:Adaptec1542B# 
+1955:Adaptec1542B_instance2
+2025:BIOS32 
+2032:Auto Detect IDs
+2079:BIOS32Present
+2080:BIOS32Entry
+2156:Adaptec2940
+2159:A2940Exported
+2160:A2940.m
+2164:A2940Thread.m
+2169:Adaptec2940SCSIDriverVersion
+2171:Adaptec2940SCSIDriverKernelServerInstance
+2172:/Net/beseler/BinCache1/drvAdaptec2940/Objects/drvAdaptec2940-19.obj~36/i386_obj/Adaptec2940SCSIDriver_reloc.tproj/Adaptec2940SCSIDriver_instance.m
+2294:driverKitVersionForAdaptec2940SCSIDriver
+2315:.objc_class_name_Adaptec1542BKernelServerInstance
+2316:.objc_class_name_Adaptec1542BVersion
+2317:_Adaptec1542B_reloc_vers
+2329:_Adaptec1542B_instance
+2605:Auto Detect IDs
+3039:"BusLogicSCSIDriver" = "BusLogic";
+3040:"Long Name" = "BusLogic PCI SCSI Adapter";
+3068:"Title" = "BusLogic VL";
+3073:"Driver Name" = "BLCController";
+3082:"Server Name" = "BusLogicSCSIDriver";
+3083:"Driver Version" = "PROGRAM:BusLogicSCSIDriver PROJECT:drvBusLogic-8 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+3084:"Title" = "BusLogic ISA";
+3089:"Driver Name" = "BLCController";
+3098:"Server Name" = "BusLogicSCSIDriver";
+3099:"Driver Version" = "PROGRAM:BusLogicSCSIDriver PROJECT:drvBusLogic-8 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+3100:"Title" = "BusLogic EISA";
+3105:"Driver Name" = "BLCController";
+3115:"Auto Detect IDs" = "0x0ab34202";
+3116:"Server Name" = "BusLogicSCSIDriver";
+3117:"Driver Version" = "PROGRAM:BusLogicSCSIDriver PROJECT:drvBusLogic-8 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+3118:"Title" = "BusLogic PCI";
+3123:"Driver Name" = "BLCController";
+3132:"Auto Detect IDs" = "0x1040104b";
+3133:"Server Name" = "BusLogicSCSIDriver";
+3134:"Driver Version" = "PROGRAM:BusLogicSCSIDriver PROJECT:drvBusLogic-8 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+3136:BusLogicFPSCSI_reloc
+3151:/Net/beseler/BinCache1/drvAdaptec6X60/Objects/drvAdaptec6X60-9.obj~38/i386_obj/AIC6X60SCSI_reloc.tproj/AIC6X60SCSI_instance.m
+3310:Adaptec2940SCSIDriver# 
+3315:Adaptec2940SCSIDriver_instance2
+3811:"Auto Detect IDs" = "0xc0ed11b9";
+4254:"Auto Detect IDs" = "0x20201022";
+4265:Adaptec1542B_reloc
+4270:"Adaptec1542B" = "Adaptec 154x";
+4271:"Long Name" = "Adaptec 154x Series SCSI Adapter";
+4277:@(#)PROGRAM:Adaptec2740_reloc  PROJECT:drvAdaptec2740-10  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+4293:Adaptec2740: Can't get physical address of sense buffer
+4295:Adaptec7770
+4310:Adaptec7770: Improper IRQ in Configuration (HA IRQ = %d, Config IRQ = %d)
+4311:Adaptec2740: him_struct larger thanpage size
+4313:Adaptec7770: Couldn't initialize Host Adaptor (scb_initHA() returned %d
+4314:Adaptec2740 timeout
+4316:Adaptec7770: No IRQs Configured
+4318:Adaptec2740: No Card Type in config Table
+4320:Adaptec2740: Can't get slot number (%s)
+4321:Adaptec2740: Can't set portRangeList
+4322:Adaptec7770: No I/O Ports Configured
+4323:Adaptec2740: Bad Bus Type (%s) in config table
+4324:Adaptec7770: Host Adaptor needs ECU configuration
+4325:Adaptec7770: Host Adaptor not found at port %x
+4326:Adaptec7770: Unexpected number of SCSI Channels found (%d); only using %d
+4327:Adaptec7770: [super initFromDeviceDescription]failed
+4328:Adaptec7770: [super startIOThread] failed
+4335:Adaptec7770: enableAllInterrupts returned %d
+4339:Adaptec %s found at port 0x%x
+4348:Adaptec2740: Missed Interrupt
+4352:En"Adaptec1542B" = "Adaptec 1542CP";
+4353:"Long Name" = "Adaptec 1542CP PnP SCSI Adapter";
+4354:"Title" = "Adaptec 154x";
+4358:"Driver Name" = "AHAController";
+4365:"Server Name" = "Adaptec1542B";
+4367:"Driver Version" = "PROGRAM:Adaptec1542B PROJECT:drvAdaptec1542B-10 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+4368:"Title" = "Adaptec 1542CP";
+4372:"Driver Name" = "AHAController";
+4378:"Auto Detect IDs" = "0x04901542";
+4382:"Server Name" = "Adaptec1542B";
+4384:"Driver Version" = "PROGRAM:Adaptec1542B PROJECT:drvAdaptec1542B-10 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+4386:Adaptec2740_reloc
+4388:Adaptec2840.table
+4390:Adaptec2840.strings
+4391:"Adaptec2740" = "Adaptec 2740";
+4392:"Long Name" = "Adaptec 274x Series EISA SCSI Adapter";
+4393:"Adaptec2740" = "Adaptec 2840";
+4394:"Long Name" = "Adaptec 284x Series VL SCSI Adapter";
+4411:_Adaptec2740_instance
+4460:BusLogicSCSIDriverVersion
+4461:BusLogicSCSIDriverKernelServerInstance
+4462:/Net/beseler/BinCache1/drvBusLogic/Objects/drvBusLogic-8.obj~38/i386_obj/BusLogicSCSIDriver_reloc.tproj/BusLogicSCSIDriver_instance.m
+4565:driverKitVersionForBusLogicSCSIDriver
+4721:Adaptec7770
+4726:Adaptec7770.m
+4733:Adaptec2740Version
+4735:Adaptec2740KernelServerInstance
+4736:/Net/beseler/BinCache1/drvAdaptec2740/Objects/drvAdaptec2740-10.obj~38/i386_obj/Adaptec2740_reloc.tproj/Adaptec2740_instance.m
+4855:driverKitVersionForAdaptec2740
+4857:Adaptec2740# 
+4862:Adaptec2740_instance2
+4863:.objc_category_name_Adaptec7770_IOThread
+4865:.objc_class_name_Adaptec2740KernelServerInstance
+4866:.objc_class_name_Adaptec2740Version
+4867:.objc_class_name_Adaptec7770
+4869:_Adaptec2740_reloc_vers
+4910:BusLogicSCSIDriver# 
+4915:BusLogicSCSIDriver_instance2
+4919:.objc_class_name_BusLogicSCSIDriverKernelServerInstance
+4920:.objc_class_name_BusLogicSCSIDriverVersion
+4921:_BusLogicSCSIDriver_reloc_vers
+4933:_BusLogicSCSIDriver_instance
+4940:_IOPani"BusLogicSCSIDriver" = "BusLogic FlashPoint";
+4941:"Long Name" = "BusLogic FlashPoint PCI SCSI Adapter";
+4945:.objc_class_name_BusLogicFPSCSIKernelServerInstance
+4946:.objc_class_name_BusLogicFPSCSIVersion
+4947:_BusLogicFPSCSI_reloc_vers
+5045:_BusLogicFPSCSI_instance
+5085:"Title" = "BusLogic FlashPoint PCI";
+5090:"Driver Name" = "BLFPController";
+5098:"Auto Detect IDs" = "0x8130104b";
+5099:"Server Name" = "BusLogicFPSCSI";
+5100:"Driver Version" = "PROGRAM:BusLogicFPSCSI PROJECT:drvBusLogicFP-7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+5233:BusLogic: No Instance string in Config Table; aborting
+5234:BusLogic: Instance = %d; Max = %d; aborting
+5237:BusLogic
+5238:BusLogic: can't determine port base!
+5239:BusLogic: %d Interrupts in config table!
+5246:BusLogic: SCCB Manager reports error (0x%x) on sense_adapter()
+5247:BusLogic: Board not found at port 0x%x
+5251:BusLogic %s Model %s at port 0x%x
+5265:BusLogicFP: SccbMgr_config_adapter FAILURE
+5266:BusLogicFP: Resetting SCSI Bus...
+5269:@(#)PROGRAM:BusLogicFPSCSI_reloc  PROJECT:drvBusLogicFP-7  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+5280:BusLogicFPSCSIVersion
+5282:BusLogicFPSCSIKernelServerInstance
+5283:/Net/beseler/BinCache1/drvBusLogicFP/Objects/drvBusLogicFP-7.obj~40/i386_obj/BusLogicFPSCSI_reloc.tproj/BusLogicFPSCSI_instance.m
+5369:driverKitVersionForBusLogicFPSCSI
+5371:BusLogicFPSCSI# 
+5376:BusLogicFPSCSI_instance2
+5462:"Auto Detect IDs" = "0x1214a410 0x1214a402 0x1214a420 0x1214a502";
+5751:"Auto Detect IDs" = "0xa4001044";
+5769:"Auto Detect IDs" = "0x1214a411";
+5838:"Driver Name" = "PS2Keyboard";
+6073:"Driver Name" = "PCIC";
+6088:"Driver Name" = "PCIC_PCI";
+6096:"Auto Detect IDs" = "0x11001013";
+6222:CirrusCompatible
+6357:"Auto Detect IDs" = "0x04838086 0x04A38086";
+6484:"Driver Name" = "EIDE";
+6667:NO_ATA_RUNTIME_MEMORY_ALLOCATION
+6749:Auto Detect IDs
+6756:NO_ATAPI_RUNTIME_MEMORY_ALLOCATION
+7253:"Driver Name" = "EIDE";
+7280:"Driver Name" = "EIDE";
+7311:"Driver Name" = "EIDE";
+7331:"Auto Detect IDs" = "0x10001042";
+7341:"Driver Name" = "EIDE";
+7368:S3ViRGEDisplayDriver_reloc
+7373:"S3ViRGEDisplayDriver" = "Stealth 3D 2000";
+7375:"S3ViRGEDisplayDriver" = "#9 Reality 332";
+7478:ATI_BIOS setDisplayMode: ATIbios32() returned %d
+7479:ATI_BIOS setDisplayMode: ah = 0x%x on return from ATIbios32()
+7481:ATI BIOS setApertureEnable: apertureAdrs misalignment (0x%x)
+7482:ATI_BIOS setApertureEnable: ATIbios32() returned %d
+7483:ATI_BIOS setApertureEnable: ah = 0x%x on return from ATIbios32()
+7484:ATI_BIOS shortQuery: ATIbios32() returned %d
+7485:ATI_BIOS shortQuery: ah = 0x%x on return from ATIbios32()
+7486:ATI_BIOS deviceQuery: ATIbios32() returned %d
+7487:ATI_BIOS deviceQuery: ah = 0x%x on return from ATIbios32()
+7488:ATI_BIOS getRefreshRate: ATIbios32() returned %d
+7489:ATI_BIOS getRefreshRate: ah = 0x%x on return from ATIbios32()
+7490:ATI_BIOS: Data Segment size exceeded (0x%x)
+7491:ATI_BIOS %s: ATIbios32() returned %d
+7492:ATI_BIOS %s: ah = 0x%x on return from ATIbios32()
+7501:ATIbios16: invalid offset (0x%x)
+7507:%s: S3/ViRGE display adapter not detected
+7510:%s: Detected S3/ViRGE display adapter (%s)(%dMB)
+7511:Number9
+7517:S3ViRGE
+7520:@(#)PROGRAM:S3ViRGEDisplayDriver_reloc  PROJECT:drvS3ViRGE-3  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+7578:ATI_BIOS
+7580:ATI_BIOS.m
+7583:S3ViRGEDisplayDriver
+7585:S3ViRGE.m
+7589:S3ViRGEDisplayDriverVersion
+7591:S3ViRGEDisplayDriverKernelServerInstance
+7592:/Net/beseler/BinCache1/drvS3ViRGE/Objects/drvS3ViRGE-3.obj~29/i386_obj/S3ViRGEDisplayDriver_reloc.tproj/S3ViRGEDisplayDriver_instance.m
+7632:ATIPresent:
+7692:driverKitVersionForS3ViRGEDisplayDriver
+7694:S3ViRGEDisplayDriver# 
+7699:S3ViRGEDisplayDriver_instance2
+7700:.objc_category_name_ATI_BIOS_Private
+7701:.objc_category_name_S3ViRGEDisplayDriver_TransferTable
+7702:.objc_class_name_ATI_BIOS
+7703:.objc_class_name_S3ViRGEDisplayDriver
+7704:.objc_class_name_S3ViRGEDisplayDriverKernelServerInstance
+7705:.objc_class_name_S3ViRGEDisplayDriverVersion
+7707:_ATI_Bios_Offset
+7708:_ATI_Bios_Selector
+7709:_ATI_Bios_StackOffset
+7710:_ATI_Bios_StackSelector
+7711:_ATIbios16
+7712:_S3ViRGEDisplayDriver_reloc_vers
+7713:__ATIbios32
+7730:_S3ViRGEDisplayDriver_instance
+7751:"Driver Name" = "S3ViRGEDisplayDriver";
+7755:"Auto Detect IDs" = "0x56315333";
+7761:"Help File" = "S3ViRGE_Stealth3D2000.rtfd";
+7762:"Server Name" = "S3ViRGEDisplayDriver";
+7763:"Driver Version" = "PROGRAM:S3ViRGEDisplayDriver PROJECT:drvS3ViRGE-3 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+7764:"Title" = "Number9 Reality 332 PCI 2MB";
+7768:"Driver Name" = "S3ViRGEDisplayDriver";
+7772:"Auto Detect IDs" = "0x56315333";
+7778:"Help File" = "S3ViRGE_Reality332.rtfd";
+7779:"Server Name" = "S3ViRGEDisplayDriver";
+7780:"Driver Version" = "PROGRAM:S3ViRGEDisplayDriver PROJECT:drvS3ViRGE-3 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+7793:"Driver Name" = "SYM53c8";
+7798:"Auto Detect IDs" = "0x00011000 0x00021000 0x00031000 0x00041000";

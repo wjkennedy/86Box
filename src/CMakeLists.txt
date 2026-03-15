@@ -185,6 +185,16 @@ find_package(PNG REQUIRED)
 include_directories(${PNG_INCLUDE_DIRS})
 target_link_libraries(86Box PNG::PNG)
 
+# Branding: allow overriding the app name and bundle ID
+if(NOT DEFINED APP_NAME)
+    set(APP_NAME "Whitebox")
+endif()
+if(APPLE)
+    if(NOT DEFINED BUNDLE_IDENTIFIER)
+        set(BUNDLE_IDENTIFIER "net.whitebox.Whitebox")
+    endif()
+endif()
+
 configure_file(include/86box/version.h.in include/86box/version.h @ONLY)
 include_directories(${CMAKE_CURRENT_BINARY_DIR}/include)
 

@@ -153,6 +153,7 @@ video_cards[] = {
     { .device = &gd5430_diamond_speedstar_pro_se_a8_vlb_device, .flags = VIDEO_FLAG_TYPE_NONE },
     { .device = &gd5430_vlb_device,                             .flags = VIDEO_FLAG_TYPE_NONE },
     { .device = &gd5434_vlb_device,                             .flags = VIDEO_FLAG_TYPE_NONE },
+    { .device = &wingine_vlb_device,                            .flags = VIDEO_FLAG_TYPE_NONE },
     { .device = &ht216_32_standalone_device,                    .flags = VIDEO_FLAG_TYPE_NONE },
     { .device = &s3_elsa_winner1000_86c928_vlb_device,          .flags = VIDEO_FLAG_TYPE_NONE },
     { .device = &s3_metheus_86c928_vlb_device,                  .flags = VIDEO_FLAG_TYPE_NONE },

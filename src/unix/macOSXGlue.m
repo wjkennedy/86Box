@@ -25,9 +25,9 @@ getDefaultROMPath(char *Path)
     // If a valid app support directory exists, add the
     // app's bundle ID to it to specify the final directory.
     if (appSupportDir) {
-        NSString *appBundleID = [[NSBundle mainBundle] bundleIdentifier];
-        appDirectory          = [appSupportDir URLByAppendingPathComponent:appBundleID];
-        appDirectory          = [appDirectory URLByAppendingPathComponent:@"roms"];
+        /* Force Whitebox Application Support folder regardless of bundle id */
+        appDirectory = [appSupportDir URLByAppendingPathComponent:@"Whitebox"];
+        appDirectory = [appDirectory URLByAppendingPathComponent:@"roms"];
     }
     // create ~/Library/Application Support/... stuff
 

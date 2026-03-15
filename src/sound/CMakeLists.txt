@@ -78,6 +78,30 @@ elseif(SNDIO)
 
     include_directories(${SNDIO_INCLUDE_DIRS})
 elseif(OPENAL)
+    # Prefer OpenAL Soft on macOS (Homebrew keg) so alext.h is available
+    if(APPLE)
+        foreach(_brew_openal_soft 
+                "/opt/homebrew/opt/openal-soft" 
+                "/usr/local/opt/openal-soft")
+            if(EXISTS "${_brew_openal_soft}/include/AL/alext.h" AND EXISTS "${_brew_openal_soft}/lib/libopenal.dylib")
+                if(NOT DEFINED OpenAL_ROOT)
+                    set(OpenAL_ROOT "${_brew_openal_soft}" CACHE PATH "OpenAL Soft root (Homebrew)" FORCE)
+                endif()
+                # Help both config and module find modes and ensure headers are visible to object libs
+                if(NOT DEFINED OPENAL_INCLUDE_DIR)
+                    set(OPENAL_INCLUDE_DIR "${_brew_openal_soft}/include" CACHE PATH "OpenAL include dir" FORCE)
+                endif()
+                if(NOT DEFINED OPENAL_LIBRARY)
+                    set(OPENAL_LIBRARY "${_brew_openal_soft}/lib/libopenal.dylib" CACHE FILEPATH "OpenAL library" FORCE)
+                endif()
+                # Ensure config packages are found
+                if(NOT _brew_openal_soft IN_LIST CMAKE_PREFIX_PATH)
+                    list(PREPEND CMAKE_PREFIX_PATH "${_brew_openal_soft}")
+                endif()
+                break()
+            endif()
+        endforeach()
+    endif()
     if(VCPKG_TOOLCHAIN)
         find_package(OpenAL CONFIG REQUIRED)
     elseif(MINGW)

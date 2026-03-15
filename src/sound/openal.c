@@ -25,9 +25,8 @@
 #define AL_LIBTYPE_STATIC
 #define ALC_LIBTYPE_STATIC
 
-#include "AL/al.h"
-#include "AL/alc.h"
-#include "AL/alext.h"
+#include "openal_headers_compat.h"
+#include "openal_compat.h"
 #include <86box/86box.h>
 #include <86box/midi.h>
 #include <86box/sound.h>
@@ -233,6 +232,10 @@ inital(void)
     }
 
     if (sound_is_float) {
+#if !defined(AL_FORMAT_STEREO_FLOAT32)
+        /* Float32 format not available; fallback to int16 */
+        sound_is_float = 0;
+#else
         memset(buf, 0, BUFLEN * 2 * sizeof(float));
         memset(cd_buf, 0, CD_BUFLEN * 2 * sizeof(float));
         memset(music_buf, 0, MUSICBUFLEN * 2 * sizeof(float));
@@ -241,7 +244,9 @@ inital(void)
         memset(hdd_buf, 0, BUFLEN * 2 * sizeof(float));
         if (init_midi)
             memset(midi_buf, 0, midi_buf_size * sizeof(float));
-    } else {
+#endif
+    }
+    if (!sound_is_float) {
         memset(buf_int16, 0, BUFLEN * 2 * sizeof(int16_t));
         memset(cd_buf_int16, 0, CD_BUFLEN * 2 * sizeof(int16_t));
         memset(music_buf_int16, 0, MUSICBUFLEN * 2 * sizeof(int16_t));
@@ -254,6 +259,7 @@ inital(void)
 
     for (uint8_t c = 0; c < 4; c++) {
         if (sound_is_float) {
+#if defined(AL_FORMAT_STEREO_FLOAT32)
             alBufferData(buffers[c], AL_FORMAT_STEREO_FLOAT32, buf, BUFLEN * 2 * sizeof(float), FREQ);
             alBufferData(buffers_music[c], AL_FORMAT_STEREO_FLOAT32, music_buf, MUSICBUFLEN * 2 * sizeof(float), MUSIC_FREQ);
             alBufferData(buffers_wt[c], AL_FORMAT_STEREO_FLOAT32, wt_buf, WTBUFLEN * 2 * sizeof(float), WT_FREQ);
@@ -262,6 +268,17 @@ inital(void)
             alBufferData(buffers_hdd[c], AL_FORMAT_STEREO_FLOAT32, hdd_buf, BUFLEN * 2 * sizeof(float), FREQ);
             if (init_midi)
                 alBufferData(buffers_midi[c], AL_FORMAT_STEREO_FLOAT32, midi_buf, midi_buf_size * (int) sizeof(float), midi_freq);
+#else
+            /* Safety: if float format is unavailable, use int16 path */
+            alBufferData(buffers[c], AL_FORMAT_STEREO16, buf_int16, BUFLEN * 2 * sizeof(int16_t), FREQ);
+            alBufferData(buffers_music[c], AL_FORMAT_STEREO16, music_buf_int16, MUSICBUFLEN * 2 * sizeof(int16_t), MUSIC_FREQ);
+            alBufferData(buffers_wt[c], AL_FORMAT_STEREO16, wt_buf_int16, WTBUFLEN * 2 * sizeof(int16_t), WT_FREQ);
+            alBufferData(buffers_cd[c], AL_FORMAT_STEREO16, cd_buf_int16, CD_BUFLEN * 2 * sizeof(int16_t), CD_FREQ);
+            alBufferData(buffers_fdd[c], AL_FORMAT_STEREO16, fdd_buf_int16, BUFLEN * 2 * sizeof(int16_t), FREQ);
+            alBufferData(buffers_hdd[c], AL_FORMAT_STEREO16, hdd_buf_int16, BUFLEN * 2 * sizeof(int16_t), FREQ);
+            if (init_midi)
+                alBufferData(buffers_midi[c], AL_FORMAT_STEREO16, midi_buf_int16, midi_buf_size * (int) sizeof(int16_t), midi_freq);
+#endif
         } else {
             alBufferData(buffers[c], AL_FORMAT_STEREO16, buf_int16, BUFLEN * 2 * sizeof(int16_t), FREQ);
             alBufferData(buffers_music[c], AL_FORMAT_STEREO16, music_buf_int16, MUSICBUFLEN * 2 * sizeof(int16_t), MUSIC_FREQ);
@@ -338,10 +355,15 @@ givealbuffer_common(const void *buf, const uint8_t src, const int size, const in
 
         alSourceUnqueueBuffers(source[src], 1, &buffer);
 
-        if (sound_is_float)
+        if (sound_is_float) {
+#if defined(AL_FORMAT_STEREO_FLOAT32)
             alBufferData(buffer, AL_FORMAT_STEREO_FLOAT32, buf, size * (int) sizeof(float), freq);
-        else
+#else
             alBufferData(buffer, AL_FORMAT_STEREO16, buf, size * (int) sizeof(int16_t), freq);
+#endif
+        } else {
+            alBufferData(buffer, AL_FORMAT_STEREO16, buf, size * (int) sizeof(int16_t), freq);
+        }
 
         alSourceQueueBuffers(source[src], 1, &buffer);
     }

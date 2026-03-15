@@ -8074,7 +8074,7 @@ const machine_t machines[] = {
         .internal_name     = "isa486",
         .type              = MACHINE_TYPE_486,
         .chipset           = MACHINE_CHIPSET_SIS_401,
-        .init              = machine_at_isa486_init,
+        .init              = machine_at_objectstation41_init,
         .p1_handler        = machine_generic_p1_handler,
         .gpio_handler      = NULL,
         .available_flag    = MACHINE_AVAILABLE,
@@ -9449,6 +9449,100 @@ const machine_t machines[] = {
         .kbd_device               = NULL,
         .fdc_device               = NULL,
         .vid_device               = &gd5428_vlb_onboard_device,
+        .snd_device               = NULL,
+        .net_device               = NULL
+    },
+    /* Canon object.station 41: 486DX4 VLB system with onboard Wingine video, PCnet-32 NIC, and WSS audio. */
+    {
+        .name              = "[Canon] object.station 41",
+        .internal_name     = "objectstation41",
+        .type              = MACHINE_TYPE_486_S3,
+        .chipset           = MACHINE_CHIPSET_PROPRIETARY,
+        .init              = machine_at_isa486_init,
+        .p1_handler        = machine_generic_p1_handler,
+        .gpio_handler      = NULL,
+        .available_flag    = MACHINE_AVAILABLE,
+        .gpio_acpi_handler = NULL,
+        .cpu               = {
+            .package     = CPU_PKG_SOCKET3,
+            .block       = CPU_BLOCK_NONE,
+            .min_bus     = 33333333,
+            .max_bus     = 33333333,
+            .min_voltage = 3300,
+            .max_voltage = 5000,
+            .min_multi   = 2.0,
+            .max_multi   = 3.0
+        },
+        .bus_flags = MACHINE_PS2_VLB,
+        .flags     = MACHINE_VIDEO | MACHINE_SOUND,
+        .ram       = {
+            .min  = 1024,
+            .max  = 65536,
+            .step = 1024
+        },
+        .nvrmask                  = 127,
+        .jumpered_ecp_dma         = 0,
+        .default_jumpered_ecp_dma = -1,
+        .kbc_device               = &kbc_at_device,
+        .kbc_params               = KBC_VEN_AMI | 0x00004800,
+        .nvr_device               = &nvr_at_device,
+        .nvr_params               = NVR_AT,
+        .sio_device               = NULL,
+        .sio_params               = 0x00000000,
+        .kbc_p1                   = 0x00000cf0,
+        .gpio                     = 0xffffffff,
+        .gpio_acpi                = 0xffffffff,
+        .device                   = NULL,
+        .kbd_device               = NULL,
+        .fdc_device               = NULL,
+        .vid_device               = &wingine_onboard_device,
+        .snd_device               = &wss_device,   /* Canon sound is WSS-compatible @0x530 */
+        .net_device               = &pcnet_am79c960_vlb_device
+    },
+    /* Epson NX: 486 ISA system with on-board Wingine video and dual IDE. */
+    {
+        .name              = "[Epson] NX",
+        .internal_name     = "epson_nx",
+        .type              = MACHINE_TYPE_486_S3,
+        .chipset           = MACHINE_CHIPSET_PROPRIETARY,
+        .init              = machine_at_isa486_init,
+        .p1_handler        = machine_generic_p1_handler,
+        .gpio_handler      = NULL,
+        .available_flag    = MACHINE_AVAILABLE,
+        .gpio_acpi_handler = NULL,
+        .cpu               = {
+            .package     = CPU_PKG_SOCKET3,
+            .block       = CPU_BLOCK_NONE,
+            .min_bus     = 33333333,
+            .max_bus     = 33333333,
+            .min_voltage = 3300,
+            .max_voltage = 5000,
+            .min_multi   = 2.0,
+            .max_multi   = 3.0
+        },
+        .bus_flags = MACHINE_PS2,
+        .flags     = MACHINE_VIDEO | MACHINE_IDE_DUAL,
+        .ram       = {
+            .min  = 1024,
+            .max  = 65536,
+            .step = 1024
+        },
+        .nvrmask                  = 127,
+        .jumpered_ecp_dma         = 0,
+        .default_jumpered_ecp_dma = -1,
+        .kbc_device               = &kbc_at_device,
+        .kbc_params               = KBC_VEN_AMI | 0x00004800,
+        .nvr_device               = &nvr_at_device,
+        .nvr_params               = NVR_AT,
+        .sio_device               = NULL,
+        .sio_params               = 0x00000000,
+        .kbc_p1                   = 0x00000cf0,
+        .gpio                     = 0xffffffff,
+        .gpio_acpi                = 0xffffffff,
+        .device                   = NULL,
+        .kbd_device               = NULL,
+        .fdc_device               = NULL,
+        .vid_device               = &wingine_onboard_device,
         .snd_device               = NULL,
         .net_device               = NULL
     },
@@ -22715,5 +22809,3 @@ machine_get_nvr_name(void)
 {
     return machine_get_nvr_name_ex(machine);
 }
-
-

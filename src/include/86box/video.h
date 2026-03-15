@@ -370,6 +370,10 @@ extern const device_t bochs_svga_device;
 extern const device_t chips_69000_device;
 extern const device_t chips_69000_onboard_device;
 
+/* Canon Wingine (skeleton) */
+extern const device_t wingine_onboard_device;
+extern const device_t wingine_vlb_device;
+
 /* Cirrus Logic GD54xx */
 extern const device_t gd5401_isa_device;
 extern const device_t gd5401_onboard_device;

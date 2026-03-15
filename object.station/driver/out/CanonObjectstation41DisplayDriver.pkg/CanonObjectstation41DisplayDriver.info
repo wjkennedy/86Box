@@ -1,0 +1,21 @@
+# The info file for the prerelease version of the Canon Objectstation 41 on-board display adapter device driver
+
+# These fields will be displayed in the Info View
+Title		Canon Objectstation 41 On-Board Display Adapter Driver 
+Version		NEXTSTEP Release 3.2, Driver Version 1
+Description	This package contains version 1 of the device driver for the Canon Objectstation 41 display adapter. Install it only on Intel-based computers running NEXTSTEP Release 3.2. After installing this device driver, use Configure.app to add and configure it to work with NEXTSTEP.
+
+
+# These fields are used for the installed and floppy locations
+DefaultLocation		/
+Relocatable		NO
+Diskname		CanonObjectstation41DisplayDriver #%d
+
+# Other fields  
+Application		NO
+LibrarySubdirectory	Standard
+InstallOnly 		YES
+DisableStop		YES
+LongFilenames		YES
+
+

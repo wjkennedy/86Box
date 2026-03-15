@@ -1558,3 +1558,4 @@ extern const device_t  xi8088_device;
 extern int             machine_xt_xi8088_init(const machine_t *);
 
 #endif /*EMU_MACHINE_H*/
+extern int             machine_at_objectstation41_init(const machine_t *);

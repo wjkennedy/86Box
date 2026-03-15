@@ -50,6 +50,14 @@ configure_file(Info.plist.in Info.plist @ONLY)
 set_target_properties(86Box
     PROPERTIES MACOSX_BUNDLE_INFO_PLIST ${CMAKE_CURRENT_BINARY_DIR}/Info.plist)
 
+# Bundle/app naming
+if(NOT DEFINED APP_NAME)
+    set(APP_NAME "86Box")
+endif()
+set_target_properties(86Box PROPERTIES 
+    OUTPUT_NAME "${APP_NAME}"
+    MACOSX_BUNDLE_BUNDLE_NAME "${APP_NAME}")
+
 #set(XCODE_ATTRIBUTE_CODE_SIGNING_REQUIRED "YES")
 #set(XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "-")
 #set(XCODE_ATTRIBUTE_CODE_SIGN_ENTITLEMENTS ${CMAKE_CURRENT_SOURCE_DIR}/mac/entitlements.plist)

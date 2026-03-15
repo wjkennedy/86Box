@@ -1,0 +1,400 @@
+3154:"Number9Motion331DisplayDriver" = "#9 Motion 331 (2Mo)";
+3165:"Number9Motion331DisplayDriver" = "#9 Motion 331 (1Mo)";
+5610:ATIGXPro.strings
+5613:"ATIMach32" = "ATI Mach32";
+5615: base d'ATI Mach32";
+5625:"ATIMach32" = "ATI Mach32 int
+5627: ATI Mach32";
+5637:"ATIMach32" = "ATI Mach32 EISA";
+5639: base ATI Mach32";
+5649:"ATIMach32" = "ATI Mach32 PCI";
+5651: base d'ATI Mach32";
+5677:"Driver Name" = "IBMTokenRing";
+5696:"Driver Name" = "IBMTokenRing";
+5709:"Auto Detect IDs" = "0x244d0001";
+8278:"Driver Name" = "IBMTokenRing";
+9325:"Driver Name" = "IBMTokenRing";
+9343:"Driver Name" = "IBMTokenRing";
+9362:{\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\f0\b\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename IntelPRO100EISA.rtfd;\linkMarkername ;}
+9365:{{\NeXTHelpLink49 \markername ;\linkFilename IntelPRO100PCI.rtfd;\linkMarkername ;}
+9530:IntelPRO100EISA.rtfd
+9531:IntelPRO100PCI.rtfd
+11704:"Adaptec1542B" = "Adaptec 154x";
+14213:"NTComponentDescription" = "NeXT Delta Mu-law  ljud-CODEC";
+24615:- DEC/mag tape formats
+28678: TOT COMP  VSIZ  UCSIZ   CSIZ RATIO ACT INA COMP DEA DONT POOR
+53426:\pard\tx520\tx1060\tx1600\tx2120\tx2660\tx3200\tx3720\tx4260\tx4800\tx5320\f0\b0\i0\ulnone\qc\fs36\fc0\cf0 Weitek P9000-based Display Adapter
+53427:"WeitekP9000" = "Diamond Viper";
+53429:"WeitekP9000" = "Genoa VideoBlitz";
+55601:]"WeitekP9000" = "Weitek P9000";
+55602:"Long Name" = "Weitek P9000-based VL-Bus Display Adapter";
+55606:IntelPRO100PCI.table
+55611:"Driver Name" = "IntelPRO100EISA";
+55613:"Auto Detect IDs" = "0x25d41060";
+55620:"Help File" = "IntelPRO100EISA.rtfd";
+55627:"Driver Name" = "IntelPRO100PCI";
+55629:"Auto Detect IDs" = "0x12278086";
+55637:"Help File" = "IntelPRO100PCI.rtfd";
+55803:IntelPRO100EISA: couldn't get slot number
+55804:IntelPRO100EISA: failed to retrieve eisa id
+55805:IntelPRO100EISA: failed to add irq
+55827:IntelPRO100EISA
+55828:IntelPRO100EISA.m
+55829:IntelPRO100PCI
+55830:IntelPRO100PCI.m
+56020:.objc_class_name_IntelPRO100EISA
+56021:.objc_class_name_IntelPRO100PCI
+57164:BusLogicFP_PCI.rtfd
+57171:{\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\f0\b\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename BusLogicFP_PCI.rtfd;\linkMarkername ;}
+57173:BusLogic FlashPoint PCI SCSI Adapter (v4.02)
+60118:tp - DEC/mag tape formats
+165968:"Number9Motion331DisplayDriver.rtfd
+165975:{\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\f0\b\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename Number9Motion331DisplayDriver.rtfd;\linkMarkername ;}
+165977:Adaptateur d'affichage Number9 Motion 331 (v4.00)
+166074:"Driver Name" = "IOVGADisplay";
+166926:.SH IDENTIFICATION
+167995:ATIGXPro.strings
+167998:"ATIMach32" = "ATI Mach32";
+167999:"Long Name" = "ATI Mach32 gest
+168009:"ATIMach32" = "Integrierter ATI Mach32";
+168010:"Long Name" = "Integrierter ATI Mach32 Bildschirmadapter";
+168019:"ATIMach32" = "ATI Mach32 EISA";
+168020:"Long Name" = "ATI Mach32 gest
+168030:"ATIMach32" = "ATI Mach32 PCI";
+168031:"Long Name" = "ATI Mach32 gest
+168489:ATI_BIOS setDisplayMode: ATIbios32() returned %d
+168490:ATI_BIOS setDisplayMode: ah = 0x%x on return from ATIbios32()
+168492:ATI BIOS setApertureEnable: apertureAdrs misalignment (0x%x)
+168493:ATI_BIOS setApertureEnable: ATIbios32() returned %d
+168494:ATI_BIOS setApertureEnable: ah = 0x%x on return from ATIbios32()
+168495:ATI_BIOS shortQuery: ATIbios32() returned %d
+168496:ATI_BIOS shortQuery: ah = 0x%x on return from ATIbios32()
+168497:ATI_BIOS deviceQuery: ATIbios32() returned %d
+168498:ATI_BIOS deviceQuery: ah = 0x%x on return from ATIbios32()
+168499:ATI_BIOS getRefreshRate: ATIbios32() returned %d
+168500:ATI_BIOS getRefreshRate: ah = 0x%x on return from ATIbios32()
+168501:ATI_BIOS: Data Segment size exceeded (0x%x)
+168502:ATI_BIOS %s: ATIbios32() returned %d
+168503:ATI_BIOS %s: ah = 0x%x on return from ATIbios32()
+168512:ATIbios16: invalid offset (0x%x)
+168536:ATI_BIOS
+168538:ATI_BIOS.m
+168592:ATIPresent:
+168654:.objc_category_name_ATI_BIOS_Private
+168656:.objc_class_name_ATI_BIOS
+168661:_ATI_Bios_Offset
+168662:_ATI_Bios_Selector
+168663:_ATI_Bios_StackOffset
+168664:_ATI_Bios_StackSelector
+168665:_ATIbios16
+168669:__ATIbios32
+169642:"Driver Name" = "IOVGADisplay";
+169669:"Driver Name" = "Wingine";
+171405:IntelPRO100PCI.strings
+171461:.TH ANALYZEALLOCATION 1 "March 28, 1996" "NeXT Software, Inc."
+173589:"Adaptec1542B" = "Adaptec 154x";
+173662: }\pard\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\tx5400\tx5760\tx6120\tx6480\tx6840\tx7200\tx7560\f0\b\i0\ulnone\fs36\li360\fc1\cf1 BusLogic FlashPoint PCI SCSI Adapter\
+173674:\pard\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\tx5400\tx5760\tx6120\tx6480\tx6840\tx7200\tx7560\fs24\li360\fc0\cf0 BusLogic FlashPoint KT-930 PCI SCSI Adapter
+173676:BusLogic FlashPoint LW 950 Wide PCI SCSI Adapter\
+173678:\b\fs24\fc0\cf0 Installing a BusLogic FlashPoint PCI SCSI Adapter\
+173682:\b0   You must install the BusLogic PCI SCSI adapter in your system before you configure the driver.  \
+173689:Install the BusLogic PCI SCSI Adapter in an PCI slot.\
+173690:3.   Run  the BusLogic AutoSCSI program, available at boot time, to configure various host adapter parameters.\
+173692:       the User's Manual and configure the host adapter accordingly using the BusLogic AutoSCSI program.\
+173695:\b\fs24\fc0\cf0 Configuring the BusLogic PCI SCSI Adapter Device Driver 
+173706:After you have installed the adapter, log in as root, start Configure, and Click the SCSI icon at the top of Configure's Summary window.  If any string containing "BusLogic" is in the list of devices that appears in the window, select the driver's name, and click Remove.
+173709:If you're planning to use the BusLogic SCSI Adapter adapter in place of another adapter named in the list, select the other adapter's name, and click Remove. \
+173711:In  the Add SCSI Devices panel that opens, select the radio button labeled "Show Drivers for Detected Devices."  Select "BusLogic FlashPoint PCI SCSI Adapter" from the list, and click Add. \
+173713:\b0  If the BusLogic driver does not show up in the list of  detected devices, this indicates a problem with the system setup. You need to run the system's setup program at boot time to ensure that the system BIOS knows about the board. \
+173730:See NeXTanswer 2129 for an overview of this BusLogic \
+176016:.SH LIMITATIONS
+181604:.SH IDENTIFICATION
+182082:.Ip "flock \s-1FILEHANDLE\s0,\s-1OPERATION\s0" 8
+182084:definition of \s-1OPERATION\s0.  Returns \s-1TRUE\s0 for success, \s-1FALSE\s0 on failure.
+184431:in floating point.  The default is 8012 (SND_RATE_CODEC).
+185310:"S3GenericDisplayDriver" = "S3 Generic PCI";
+187816:The second argument \f(CWpointer\fR will point to the newly all"S3GenericDisplayDriver" = "S3 Generic VL";
+195405:.SH OPERATIONS
+195867:.SH INSTALLATION
+196815:.SH STATIC ARCHIVE LIBRARIES
+197688:\&    $IDX = $ST_ATIME       if $opt_u; 
+203580:.SH INSTALLATION
+203647:.SH INSTALLATION
+203867:.SH INSTALLATION
+205615:.SH OPTIMIZATION OPTIONS
+206081:.SH CODE GENERATION OPTIONS
+206870:.SH INSTALLATION
+213127:.SH "DELEGATION"
+213333:appropriate.  See the section on \fI\s-1OBJECT\s0 \s-1RELATIONSHIPS\s0\fR, the section on \fI\s-1USING\s0 \s-1RELATIONSHIP\s0 \s-1WITH\s0 \s-1SDBM\s0\fR,
+213334:and the section on \fI\s-1DELEGATION\s0\fR.
+213431:.SH "OBJECT RELATIONSHIPS"
+213503:.SH "USING RELATIONSHIP WITH SDBM"
+213852:\f(CW$a+=7\fR, or \f(CW$a++\fR.  See the section on \fI\s-1MAGIC\s0 \s-1AUTOGENERATION\s0\fR.  (Mathemagical
+213947:substituted method (see the section on \fI\s-1MAGIC\s0 \s-1AUTOGENERATION\s0\fR).  If this fails, it
+213979:.SH "MAGIC AUTOGENERATION"
+214022:.SH "IMPLEMENTATION"
+214521:.SH IDENTIFICATION
+214586:.SH DOCUMENTATION
+219281:.SH IDENTIFICATION
+219299:.SH LIMITATIONS
+416959:Tridentine
+416960:Tridentinian
+418783:Tulipa
+447401:.SH IDENTIFICATION
+447565:.SH IDENTIFICATION
+447623:.SH IDENTIFICATION
+448354:.SH IDENTIFICATION
+449594:.SH "LIMITATIONS"
+450304:.ta \w'\eRMAN\eBIN\eSHADECOM  'u+4n
+450309:\eRMAN\eLIB\eSHADECOM
+450453:.SH LIMITATIONS
+451247:.\" IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+452180:.SH LIMITATIONS
+452659:(normally ^Q) will restart it.  This is compatible with DEC's vendor
+455142:on DECtape or magtape.
+455199:Specifies magtape as opposed to DECtape.
+455204:For DECtape, 
+457159:.TH VACATION 1 "June 16, 1985"
+459559:See \fBARITHMETIC EVALUATION\fP below.
+460295:.SH "ARITHMETIC EVALUATION"
+478381:Auto Detect IDs
+480982:\b\fs36 Adaptateur d'affichage Number9 \
+481001:\fc1\cf1 Number9 9FX Motion 331 
+481159:ATIGXPro.strings
+481162:"ATIMach32" = "ATI Mach32";
+481163:"Long Name" = "Adaptador de pantalla basado en ATI Mach32";
+481168:"ATIMach32" = "On-Board ATI Mach32";
+481169:"Long Name" = "Adaptador de pantalla incorporado ATI Mach32";
+481174:"ATIMach32" = "ATI Mach32 EISA";
+481175:"Long Name" = "Adaptador de pantalla EISA basado en ATI Mach32";
+482387:"ATIMach32" = "ATI Mach32 PCI";
+482388:"Long Name" = "Adaptador de pantalla PCI basado en ATI Mach32";
+483255:IntelPRO100PCI.table
+483265:"Driver Name" = "IntelPRO100EISA";
+483267:"Auto Detect IDs" = "0x25d41060";
+483274:"Help File" = "IntelPRO100EISA.rtfd";
+483440:IntelPRO100EISA: couldn't get slot number
+483441:IntelPRO100EISA: failed to retrieve eisa id
+483442:IntelPRO100EISA: failed to add irq
+483464:IntelPRO100EISA
+483465:IntelPRO100EISA.m
+483466:IntelPRO100PCI
+483467:IntelPRO100PCI.m
+483657:.objc_class_name_IntelPRO100EISA
+483658:.objc_class_name_IntelPRO100PCI
+484163:"Driver Name" = "IntelPRO100PCI";
+484165:"Auto Detect IDs" = "0x12278086";
+484173:"Help File" = "IntelPRO100PCI.rtfd";
+484287:"Adaptec1542B" = "Adaptec 154x";
+484378:AMDPCnet32NetworkDriver_reloc
+484381:AMDPCnet32NetworkDriver
+484382:"Title" = "AMD PCnet-32 Ethernet";
+484387:"Driver Name" = "AMDPCnet32";
+484394:"Server Name" = "AMDPCnet32NetworkDriver";
+484395:"Driver Version" = "PROGRAM:AMDPCnet32NetworkDriver PROJECT:drvAMDPCnet32-10 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+484496:AMDPCnet32: Invalid netbuf physical address
+484499:AMDPCnet32: NULL netbuf in receive list
+484500:AMDPCnet32: Invalid net buffer address
+484503:AMDPCnet32: This version of the driver is not valid for this NEXTSTEP Release - aborting
+484508:Auto Detect IDs
+484519:AMD PCnet-32 PCI at port 0x%0x irq %d
+484520:AMD PCnet-32 at port 0x%0x irq %d
+484522:@(#)PROGRAM:AMDPCnet32NetworkDriver_reloc  PROJECT:drvAMDPCnet32-10  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+484526:AMDPCnet32
+484529:AMDPCnet32.m
+484532:AMDPCnet32NetworkDriverVersion
+484533:AMDPCnet32NetworkDriverKernelServerInstance
+484534:/Net/beseler/BinCache1/drvAMDPCnet32/Objects/drvAMDPCnet32-10.obj~38/i386_obj/AMDPCnet32NetworkDriver_reloc.tproj/AMDPCnet32NetworkDriver_instance.m
+484657:driverKitVersionForAMDPCnet32NetworkDriver
+484659:AMDPCnet32NetworkDriver# 
+484664:AMDPCnet32NetworkDriver_instance2
+484665:.objc_category_name_AMDPCnet32_Private
+484666:.objc_class_name_AMDPCnet32
+484667:.objc_class_name_AMDPCnet32NetworkDriverKernelServerInstance
+484668:.objc_class_name_AMDPCnet32NetworkDriverVersion
+484670:_AMDPCnet32NetworkDriver_reloc_vers
+484675:_AMDPCnet32NetworkDriver_instance
+484719:"Title" = "AMD PCnet-32 PCI Ethernet";
+484724:"Driver Name" = "AMDPCnet32";
+484727:"Auto Detect IDs" = "0x20001022";
+484729:"Server Name" = "AMDPCnet32NetworkDriver";
+484730:"Driver Version" = "PROGRAM:AMDPCnet32NetworkDriver PROJECT:drvAMDPCnet32-10 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+484735:@(#)PROGRAM:AMDPCnet32NetworkDriver  PROJECT:drvAMDPCnet32-10  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+484736:_AMDPCnet32NetworkDriver_vers
+485280:"BusLogicSCSIDriver" = "BusLogic FlashPoint";
+485281:"Long Name" = "BusLogic FlashPoint PCI SCSI-Adapter";
+485299:"Driver Name" = "MicrosoftSoundSystem";
+485379:MicrosoftSoundSystem: Failed to program CODEC.
+487549:"Driver Name" = "SCSAController";
+488068:"Driver Name" = "SUNMouse";
+499075:See \fBARITHMETIC EVALUATION\fP above for a description
+499499:.SH INVOCATION
+536923:(INTERNATIONAL) fc
+543111: (PUNCTUATION MARKS) fc 
+543486:/cxpos 242 def cxpos cypos moveto  (ABBREVIATION) fc
+548652:"Number9Motion331DisplayDriver" = "Number 9 Motion 331 (2 MB)";
+548662:"Number9Motion331DisplayDriver" = "Number 9 Motion 331 (1 MB)";
+552854:ATIGXPro.strings
+552857:"ATIMach32" = "ATI Mach32";
+552858:"Long Name" = "ATI Mach32-baserad bildsk
+552869:"ATIMach32" = "On-Board ATI Mach32";
+552870:"Long Name" = "ATI Mach32-bildsk
+552882:"ATIMach32" = "ATI Mach32 EISA";
+552883:"Long Name" = "ATI Mach32-baserad EISA-bildsk
+552894:"ATIMach32" = "ATI Mach32 PCI";
+552895:"Long Name" = "ATI Mach32-baserad PCI-bildsk
+552924:IntelPRO100PCI.strings
+552999:    Resource_Keys = (INTERFACES, IMAGES, OTHER_RESOURCES, DOCUMENTATION); 
+557043:"Adaptec1542B" = "Adaptec 154x";
+602893:28 (GEOLOGIC TIME AND FORMATIONS)t
+672679:ATIMach64DisplayDriver_reloc
+672688:ATIMach64DisplayDriver
+672726:"Title" = "ATI Mach64";
+672731:"Driver Name" = "ATI";
+672743:"Server Name" = "ATIMach64DisplayDriver";
+672744:"Driver Version" = "PROGRAM:ATIMach64DisplayDriver PROJECT:drvATIMach64-21 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+672745:"Title" = "ATI Mach64";
+672749:"Auto Detect IDs" = "0x47581002 0x43581002 0x45541002 0x43541002 0x56541002 0x47541002";
+672752:"Driver Name" = "ATI";
+672763:"Server Name" = "ATIMach64DisplayDriver";
+672764:"Driver Version" = "PROGRAM:ATIMach64DisplayDriver PROJECT:drvATIMach64-21 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+672865:%s: ATI BIOS not found
+672866:%s: ATI Mach64 Found; Type %s; DAC = %s
+672922:ATIMach64: displayInfoToColorSpace problem (%d)
+672923:ATIMach64 displayInfoToColorSpace
+672924:ATIMach64: displayInfoToColorDepth problem
+672927:ATI_BIOS setDisplayMode: ATIbios32() returned %d
+672928:ATI_BIOS setDisplayMode: ah = 0x%x on return from ATIbios32()
+672930:ATI BIOS setApertureEnable: apertureAdrs misalignment (0x%x)
+672931:ATI_BIOS setApertureEnable: ATIbios32() returned %d
+672932:ATI_BIOS setApertureEnable: ah = 0x%x on return from ATIbios32()
+672933:ATI_BIOS shortQuery: ATIbios32() returned %d
+672934:ATI_BIOS shortQuery: ah = 0x%x on return from ATIbios32()
+672935:ATI_BIOS deviceQuery: ATIbios32() returned %d
+672936:ATI_BIOS deviceQuery: ah = 0x%x on return from ATIbios32()
+672937:ATI_BIOS getRefreshRate: ATIbios32() returned %d
+672938:ATI_BIOS getRefreshRate: ah = 0x%x on return from ATIbios32()
+672939:ATI_BIOS: Data Segment size exceeded (0x%x)
+672940:ATI_BIOS %s: ATIbios32() returned %d
+672941:ATI_BIOS %s: ah = 0x%x on return from ATIbios32()
+672974:ATI68875
+672975:ATI68880
+672976:ATI68860
+672983:ATIbios16: invalid offset (0x%x)
+672985:@(#)PROGRAM:ATIMach64DisplayDriver_reloc  PROJECT:drvATIMach64-21  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+673045:ATI.m
+673046:ATI_BIOS
+673048:ATIPrivate.m
+673051:ATIMach64DisplayDriverVersion
+673053:ATIMach64DisplayDriverKernelServerInstance
+673054:/Net/beseler/BinCache1/drvATIMach64/Objects/drvATIMach64-21.obj~36/i386_obj/ATIMach64DisplayDriver_reloc.tproj/ATIMach64DisplayDriver_instance.m
+673055:ATI_BIOS.m
+673112:ATIPresent:
+673144:driverKitVersionForATIMach64DisplayDriver
+673166:ATIMach64DisplayDriver# 
+673171:ATIMach64DisplayDriver_instance2
+673172:.objc_category_name_ATI_BIOS_Private
+673173:.objc_category_name_ATI_Private
+673174:.objc_category_name_ATI_ProgramDAC
+673175:.objc_class_name_ATI
+673176:.objc_class_name_ATIMach64DisplayDriverKernelServerInstance
+673177:.objc_class_name_ATIMach64DisplayDriverVersion
+673178:.objc_class_name_ATI_BIOS
+673181:_ATIMach64DisplayDriver_reloc_vers
+673182:_ATI_AsicSubTypeValues
+673183:_ATI_AsicTypeValues
+673184:_ATI_Bios_Offset
+673185:_ATI_Bios_Selector
+673186:_ATI_Bios_StackOffset
+673187:_ATI_Bios_StackSelector
+673188:_ATI_busTypeValues
+673189:_ATI_dacTypeValues
+673190:_ATI_memSizeValues
+673191:_ATI_modeToRefreshRatesTable
+673192:_ATIbios16
+673195:__ATIbios32
+673203:_isATI68880RevC
+673209:_ATIMa%!PS-Adobe-2.0 EPSF-1.2
+674948:"Title" = "ATI Mach64";
+674952:"Auto Detect IDs" = "0x47581002 0x43581002 0x45541002 0x43541002 0x56541002 0x47541002";
+674955:"Driver Name" = "ATI";
+674966:"Server Name" = "ATIMach64DisplayDriver";
+674967:"Driver Version" = "PROGRAM:ATIMach64DisplayDriver PROJECT:drvATIMach64-21 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+674968:"Title" = "ATI Mach64";
+674973:"Driver Name" = "ATI";
+674986:"Server Name" = "ATIMach64DisplayDriver";
+674987:"Driver Version" = "PROGRAM:ATIMach64DisplayDriver PROJECT:drvATIMach64-21 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+678159:31 (DENOMINATIONS ABOVE ONE MILLION)t
+678228:@(#)PROGRAM:ATIMach64DisplayDriver  PROJECT:drvATIMach64-21  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+678229:_ATIMach64DisplayDriver_vers
+678230:IntelPRO100EISA.rtfd
+678231:IntelPRO100PCI.rtfd
+678238:{{\NeXTHelpLink \markername ;\linkFilename IntelPRO100PCI.rtfd;\linkMarkername;}
+678241:{{\NeXTHelpLink \markername ;\linkFilename IntelPRO100EISA.rtfd;\linkMarkername;}
+678247:"AMDPCnet32NetworkDriver" = "AMD PCnet-32 Ethernet";
+678248:"Long Name" = "AMD PCnet-32 Ethernet Adapter";
+678249:"AMDPCnet32NetworkDriver" = "AMD PCnet-32 PCI Ethernet";
+678250:"Long Name" = "AMD PCnet-32 PCI Ethernet Adapter";
+680572:BusLogicFP_PCI.rtfd
+680579:{\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\f0\b\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename BusLogicFP_PCI.rtfd;\linkMarkername ;}
+680581:BusLogic FlashPoint PCI SCSI-Adapter (v4.01)
+769407:BusLogic_PCI.strings
+769408:BusLogic_ISA.strings
+769409:BusLogic_EISA.strings
+769436:IntelPRO100PCI.strings
+769488:]ATIGXPro.strings
+769558:WeitekP9100DisplayDriver.configA
+769559:WeitekP9000.configA
+769570:Number9Motion331DisplayDriver.configA
+769571:Number9GXE64ProDisplayDriver.configA
+769581:CirrusLogicGD542X.configA
+769584:BusLogicSCSIDriver.configA
+769585:Adaptec2940SCSIDriver.conf
+769607:BusLogic_PCI.strings
+769608:BusLogic_ISA.strings
+769609:BusLogic_EISA.strings
+769636:IntelPRO100PCI.strings
+769672:DECchip21040NetworkDriver.configA
+769675:S3GenericDisplayDriver.configA
+769676:Number9Imagine128DisplayDriver.configA
+769677:CirrusLogicGD5434DisplayDriver.configA
+769751:WeitekP9100DisplayDriver.configA
+769752:WeitekP9000.configA
+769763:Number9Motion331DisplayDriver.configA
+769764:Number9GXE64ProDisplayDriver.configA
+769774:CirrusLogicGD542X.configA
+769777:BusLogicSCSIDriver.configA
+769778:Adaptec2940SCSIDriver.configA
+769780:Adaptec1542B.configA
+769781:ATIMach64DisplayDriver.configA
+769782:ATIMach32.configA
+769783:AMDPCnet32NetworkDriver.configA
+769839:$DEC2104xInspector.nibA
+769840:$DEC21041.strings
+770004:$DEC2104xInspector.nibA
+770005:$DEC21041.strings
+770100:BusLogic_PCI.strings
+770101:BusLogic_ISA.strings
+770102:BusLogic_EISA.strings
+770129:IntelPRO100PCI.strings
+770181:]ATIGXPro.strings
+774588:"Number9Motion331DisplayDriver" = "Number 9 Motion 331 (2 MB)";
+774594:"Number9Motion331DisplayDriver" = "Number 9 Motion 331 (1MB)";
+774618:BusLogic
+774619:BusLogic: can't determine port base!
+774620:BusLogic Board not found at port 0x%x
+774630:BusLogic controller at port 0x%x
+774631:BusLogic: %d Targets per Bus; Host ID = %d
+774653:@(#)PROGRAM:BusLogicSCSIDriver_reloc  PROJECT:drvBusLogic-8  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+774666:BusLogicSCSIDriverVersion
+774667:BusLogicSCSIDriverKernelServerInstance
+774668:/Net/beseler/BinCache1/drvBusLogic/Objects/drvBusLogic-8.obj~38/i386_obj/BusLogicSCSIDriver_reloc.tproj/BusLogicSCSIDriver_instance.m
+774771:driverKitVersionForBusLogicSCSIDriver
+774773:BusLogicSCSIDriver# 
+774778:BusLogicSCSIDriver_instance2
+774782:.objc_class_name_BusLogicSCSIDriverKernelServerInstance
+774783:.objc_class_name_BusLogicSCSIDriverVersion
+774784:_BusLogicSCSIDriver_reloc_vers
+774796:_BusLogicSCSIDriver_instance
+774831:"Title" = "BusLogic VL";
+774836:"Driver Name" = "BLCController";

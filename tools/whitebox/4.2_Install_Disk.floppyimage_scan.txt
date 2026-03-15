@@ -1,0 +1,2 @@
+250:Auto Detect IDs
+529:"Really Install?" = "Questo programma consente di installare OPENSTEP su un diosco fisso.\nQUESTO NON E' UN AGGIORNAMENTO: TUTTI I FILE OPENSTEP ESISTENTI VERRANNO\nCANCELLATI.\n\nSe si desidera conservare alcuni file, uscire da questo programma e copiare i\nfile che si desidera conservare su un altro disco.\n\nDigitare 1 per iniziare la preparazione all'installazione di OPENSTEP.\nDigitare 2 per uscire da questo progrmma di installazione.\n";

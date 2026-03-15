@@ -1,0 +1,247 @@
+277:Auto Detect IDs
+460:"ATIRageDisplayDriver" = "ATI Rage";
+461:"Long Name" = "ATI Rage PCI/AGP-Bus Display Adapter (2MB Modes)";
+590:"ATIRageDisplayDriver" = "ATI Rage";
+591:"Long Name" = "ATI Rage PCI/AGP-Bus Display Adapter (4MB Modes)";
+592:"ATIRageDisplayDriver" = "ATI Rage";
+593:"Long Name" = "ATI Rage PCI/AGP-Bus Display Adapter (6MB Modes)";
+672:"ATIRageDisplayDriver" = "ATI Rage";
+673:"Long Name" = "ATI Rage PCI/AGP-Bus Display Adapter (8MB Modes)";
+682:\b\fs36 ATI Rage PCI/AGP-Bus Display Adapter\
+699:\b0 \cf0 ATI Rage, Rage II and Rage Pro based display adapters with 6MB memory\
+852:@(#)PROGRAM:BusLogicFPSCSI  PROJECT:drvBusLogicFP-7  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+879:_BusLogicFPSCSI_vers
+888:.objc_class_name_BusLogicFPSCSIKernelServerInstance
+889:.objc_class_name_BusLogicFPSCSIVersion
+890:_BusLogicFPSCSI_reloc_vers
+988:_BusLogicFPSCSI_instance
+1147:BusLogic: No Instance string in Config Table; aborting
+1148:BusLogic: Instance = %d; Max = %d; aborting
+1151:BusLogic
+1152:BusLogic: can't determine port base!
+1153:BusLogic: %d Interrupts in config table!
+1160:BusLogic: SCCB Manager reports error (0x%x) on sense_adapter()
+1161:BusLogic: Board not found at port 0x%x
+1165:BusLogic %s Model %s at port 0x%x
+1179:BusLogicFP: SccbMgr_config_adapter FAILURE
+1180:BusLogicFP: Resetting SCSI Bus...
+1183:@(#)PROGRAM:BusLogicFPSCSI_reloc  PROJECT:drvBusLogicFP-7  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+1194:BusLogicFPSCSIVersion
+1196:BusLogicFPSCSIKernelServerInstance
+1197:/Net/ektar/BinCache2/drvBusLogicFP/Objects/drvBusLogicFP-7.obj~18/i386_obj/BusLogicFPSCSI_reloc.tproj/BusLogicFPSCSI_instance.m
+1283:driverKitVersionForBusLogicFPSCSI
+1285:BusLogicFPSCSI# 
+1290:BusLogicFPSCSI_instance2
+1291:BusLogicFP_PCI.rtfd
+1298:{\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\f0\b\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename BusLogicFP_PCI.rtfd;\linkMarkername ;}
+1300:BusLogic FlashPoint PCI SCSI Adapter (v4.02)
+1302:"BusLogicSCSIDriver" = "BusLogic FlashPoint";
+1303:"Long Name" = "BusLogic FlashPoint PCI SCSI Adapter";
+1361:"BusLogicSCSIDriver" = "BusLogic FlashPoint";
+1362:"Long Name" = "BusLogic FlashPoint PCI SCSI-Adapter";
+1381: }\pard\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\tx5400\tx5760\tx6120\tx6480\tx6840\tx7200\tx7560\f0\b\i0\ulnone\fs36\li360\fc1\cf1 BusLogic FlashPoint PCI SCSI -Adapter\
+1394:\pard\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\tx5400\tx5760\tx6120\tx6480\tx6840\tx7200\tx7560\fs24\li360\fc0\cf0 BusLogic FlashPoint KT-930 PCI SCSI-Adapter
+1397:\b\fs24\fc0\cf0 Installation eines BusLogic FlashPoint PCI SCSI Adapters\
+1402:ssen den BusLogic PCI SCSI-Adapter in Ihrem System installieren, bevor Sie den Treiber konfigurieren.\
+1407:Bauen Sie den BusLogic PCI SCSI-Adapter in einen PCI-Steckplatz ein.\
+1408:hren Sie das BusLogic-Programm "AutoSCSI" aus, das beim Initialisieren des Systems verf
+1412:. Lesen Sie im Benutzerhandbuch nach, wie Sie den Host-Adapter mit dem BusLogic-Programm "AutoSCSI" konfigurieren.\
+1418:r den BusLogic PCI SCSI-Adapter
+1433:te eine Zeile mit "BusLogic" enth
+1440:hrten Adapters den BusLogic PCI-Adapter verwenden, klicken Sie auf den Namen in der Liste und anschlie
+1451:\fc1\cf1 "BusLogic FlashPoint PCI SCSI-Adapter"
+1455:\b0  Ist der BusLogic-Treiber nicht in der Liste der festgestellten Ger
+1485:BusLogic-Ger
+1715:"BusLogicSCSIDriver" = "BusLogic FlashPoint";
+1716:"Long Name" = "Adaptador SCSI  PCI  BusLogic FlashPoint";
+2015:"Driver Name" = "EtherExpress16";
+3047:Auto Detect IDs
+3685:ATIRageDisplayDriver.config
+3686:BusLogicFPSCSI.config
+3692:ATIRage_PCI_2MB.rtfd
+3693:ATIRage_PCI_4MB.rtfd
+3694:ATIRage_PCI_6MB.rtfd
+3695:ATIRage_PCI_8MB.rtfd
+3806:\b\fs36 ATI Rage PCI/AGP-Bus Display Adapter\
+3823:\b0 \cf0 ATI Rage, Rage II and Rage Pro based display adapters with 2MB memory\
+4215:{\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\f0\b\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename ATIRage_PCI_2MB.rtfd;\linkMarkername ;}
+4217:ATI Rage PCI/AGP-Bus Display Adapter (2MB Modes) (v4.04)
+4219:{\b{\NeXTHelpLink59 \markername ;\linkFilename ATIRage_PCI_4MB.rtfd;\linkMarkername ;}
+4221:ATI Rage PCI/AGP-Bus Display Adapter (4MB Modes) (v4.04)
+4223:{\b\fc1\cf1{\NeXTHelpLink118 \markername ;\linkFilename ATIRage_PCI_6MB.rtfd;\linkMarkername ;}
+4225:ATI Rage 
+4228:{{\NeXTHelpLink177 \markername ;\linkFilename ATIRage_PCI_8MB.rtfd;\linkMarkername ;}
+4230:ATI Rage 
+4365:BusLogicFP_PCI.rtfd
+4372:{\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\f0\b\i0\ulnone\fs24\fc0\cf0{\NeXTHelpLink0 \markername ;\linkFilename BusLogicFP_PCI.rtfd;\linkMarkername ;}
+4374:BusLogic FlashPoint PCI SCSI-Adapter (v4.01)
+4381:\b\fs36 ATI Rage PCI/AGP-Bus Display Adapter\
+4398:\b0 \cf0 ATI Rage, Rage II and Rage Pro based display adapters with 8MB memory\
+4506:"BusLogicSCSIDriver" = "BusLogic FlashPoint";
+4507:"Long Name" = "BusLogic FlashPoint PCI SCSI-adapter";
+4534:"Driver Name" = "EIDE";
+4567: }\pard\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\tx5400\tx5760\tx6120\tx6480\tx6840\tx7200\tx7560\f0\b\i0\ulnone\fs36\li360\fc1\cf1 BusLogic FlashPoint PCI SCSI Adapter\
+4579:\pard\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\tx5400\tx5760\tx6120\tx6480\tx6840\tx7200\tx7560\fs24\li360\fc0\cf0 BusLogic FlashPoint KT-930 PCI SCSI Adapter
+4581:BusLogic FlashPoint LW 950 Wide PCI SCSI Adapter\
+4583:\b\fs24\fc0\cf0 Installing a BusLogic FlashPoint PCI SCSI Adapter\
+4587:\b0   You must install the BusLogic PCI SCSI adapter in your system before you configure the driver.  \
+4594:Install the BusLogic PCI SCSI Adapter in an PCI slot.\
+4595:3.   Run  the BusLogic AutoSCSI program, available at boot time, to configure various host adapter parameters.\
+4597:       the User's Manual and configure the host adapter accordingly using the BusLogic AutoSCSI program.\
+4600:\b\fs24\fc0\cf0 Configuring the BusLogic PCI SCSI Adapter Device Driver 
+4611:After you have installed the adapter, log in as root, start Configure, and Click the SCSI icon at the top of Configure's Summary window.  If any string containing "BusLogic" is in the list of devices that appears in the window, select the driver's name, and click Remove.
+4614:If you're planning to use the BusLogic SCSI Adapter adapter in place of another adapter named in the list, select the other adapter's name, and click Remove. \
+4616:In  the Add SCSI Devices panel that opens, select the radio button labeled "Show Drivers for Detected Devices."  Select "BusLogic FlashPoint PCI SCSI Adapter" from the list, and click Add. \
+4618:\b0  If the BusLogic driver does not show up in the list of  detected devices, this indicates a problem with the system setup. You need to run the system's setup program at boot time to ensure that the system BIOS knows about the board. \
+4635:See NeXTanswer 2129 for an overview of this BusLogic \
+4639:"BusLogicSCSIDriver" = "BusLogic FlashPoint";
+4640:"Long Name" = "Adattatore SCSI PCI BusLogic FlashPoint";
+4650:"Driver Name" = "EIDE";
+4692:"Driver Name" = "EIDE";
+4723:"Driver Name" = "EIDE";
+4725:"Auto Detect IDs" = "0x12308086 0x70108086 0x71118086";
+4755:"Driver Name" = "EIDE";
+4775:"Auto Detect IDs" = "0x10001042";
+5123:NO_ATA_RUNTIME_MEMORY_ALLOCATION
+5231:NO_ATAPI_RUNTIME_MEMORY_ALLOCATION
+5760:"Driver Name" = "EIDE";
+5926:"Driver Name" = "EIDE";
+5953:"Driver Name" = "EIDE";
+5985:"Driver Name" = "IBMThinkPad760CDDisplayDriver";
+6408:ATI_BIOS setDisplayMode: ATIbios32() returned %d
+6409:ATI_BIOS setDisplayMode: ah = 0x%x on return from ATIbios32()
+6411:ATI BIOS setApertureEnable: apertureAdrs misalignment (0x%x)
+6412:ATI_BIOS setApertureEnable: ATIbios32() returned %d
+6413:ATI_BIOS setApertureEnable: ah = 0x%x on return from ATIbios32()
+6414:ATI_BIOS shortQuery: ATIbios32() returned %d
+6415:ATI_BIOS shortQuery: ah = 0x%x on return from ATIbios32()
+6416:ATI_BIOS deviceQuery: ATIbios32() returned %d
+6417:ATI_BIOS deviceQuery: ah = 0x%x on return from ATIbios32()
+6418:ATI_BIOS set DPMS mode: %x not valid mode
+6419:ATI_BIOS Set DPMS Mode: ATIbios32() returned %d
+6420:ATI_BIOS Get DPMS Mode: ATIbios32() returned %d
+6421:ATI_BIOS set APM state: %x not valid mode
+6422:ATI_BIOS Set APM State: ATIbios32() returned %d
+6423:ATI_BIOS Get APM State: ATIbios32() returned %d
+6424:ATI_BIOS Short Query 2: ATIbios32() returned %d
+6425:ATI_BIOS getRefreshRate: ATIbios32() returned %d
+6426:ATI_BIOS getRefreshRate: ah = 0x%x on return from ATIbios32()
+6427:ATI_BIOS: Data Segment size exceeded (0x%x)
+6428:ATI_BIOS %s: ATIbios32() returned %d
+6429:ATI_BIOS %s: ah = 0x%x on return from ATIbios32()
+6438:ATIbios16: invalid offset (0x%x)
+6462:ATI_BIOS
+6464:ATI_BIOS.m
+6521:ATIPresent:
+6588:.objc_category_name_ATI_BIOS_Private
+6590:.objc_class_name_ATI_BIOS
+6595:_ATI_Bios_Offset
+6596:_ATI_Bios_Selector
+6597:_ATI_Bios_StackOffset
+6598:_ATI_Bios_StackSelector
+6599:_ATIbios16
+6601:__ATIbios32
+6650:"Driver Name" = "SoundBlaster16";
+6671:"Auto Detect IDs" = "0x0e8c0031";
+6681:"Driver Name" = "SoundBlaster16";
+6690:"Auto Detect IDs" = "PNPB003 0x0e8c0031 CTL009e CTL00c3";
+6691:"Driver Name" = "SoundBlaster16";
+6712:"Driver Name" = "SoundBlaster16";
+6714:"Auto Detect IDs" = "PNPB003 0x0e8c0031 CTL009e CTL00c3";
+6735:"Driver Name" = "SoundBlaster16";
+7042:ATIRageDisplayDriver
+7043:ATIRageDisplayDriver_reloc
+7057:@(#)PROGRAM:ATIRageDisplayDriver  PROJECT:drvATIRage-10.8  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+7058:_ATIRageDisplayDriver_vers
+7059:_ATI_BIOS
+7062:_ATIRageDisplayDriver_reloc_vers
+7063:_ATI_AsicSubTypeValues
+7064:_ATI_AsicTypeValues
+7065:_ATI_Bios_Offset
+7066:_ATI_Bios_Selector
+7067:_ATI_Bios_StackOffset
+7068:_ATI_Bios_StackSelector
+7069:_ATI_busTypeValues
+7070:_ATI_dacTypeValues
+7071:_ATI_memSizeValues
+7072:_ATI_modeToRefreshRatesTable
+7073:_ATIbios16
+7077:__ATIbios32
+7085:_isATI68880RevC
+7091:_ATIRageDisplayDriver_instance
+7126:"Title" = "ATI Rage";
+7130:"Auto Detect IDs" = "0x47421002 0x43541002 0x47541002 0x47551002 0x47501002 0x47541002 0x4C471002 0x56541002";
+7132:"Driver Name" = "ATI";
+7142:"Server Name" = "ATIRageDisplayDriver";
+7144:"Driver Version" = "PROGRAM:ATIRageDisplayDriver PROJECT:drvATIRage-10.8 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+7152:"Title" = "ATI Rage";
+7156:"Auto Detect IDs" = "0x47421002 0x43541002 0x47541002 0x47551002 0x47501002 0x47541002 0x4C471002 0x56541002";
+7158:"Driver Name" = "ATI";
+7168:"Server Name" = "ATIRageDisplayDriver";
+7170:"Driver Version" = "PROGRAM:ATIRageDisplayDriver PROJECT:drvATIRage-10.8 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+7217:ATIRage: ATIRage adapter not found
+7218:ATIRage: ATI BIOS not found
+7222:%s: ATI Rage/Rage II/Rage Pro Found!
+7262:ATIMach64: displayInfoToColorSpace problem (%d)
+7263:ATIMach64 displayInfoToColorSpace
+7264:ATIMach64: displayInfoToColorDepth problem
+7267:ATI_BIOS setDisplayMode: ATIbios32() returned %d
+7268:ATI_BIOS setDisplayMode: ah = 0x%x on return from ATIbios32()
+7270:ATI BIOS setApertureEnable: apertureAdrs misalignment (0x%x)
+7271:ATI_BIOS setApertureEnable: ATIbios32() returned %d
+7272:ATI_BIOS setApertureEnable: ah = 0x%x on return from ATIbios32()
+7273:ATI_BIOS shortQuery: ATIbios32() returned %d
+7274:ATI_BIOS shortQuery: ah = 0x%x on return from ATIbios32()
+7275:ATI_BIOS deviceQuery: ATIbios32() returned %d
+7276:ATI_BIOS deviceQuery: ah = 0x%x on return from ATIbios32()
+7277:ATI_BIOS set DPMS mode: %x not valid mode
+7278:ATI_BIOS Set DPMS Mode: ATIbios32() returned %d
+7279:ATI_BIOS Get DPMS Mode: ATIbios32() returned %d
+7280:ATI_BIOS set APM state: %x not valid mode
+7281:ATI_BIOS Set APM State: ATIbios32() returned %d
+7282:ATI_BIOS Get APM State: ATIbios32() returned %d
+7283:ATI_BIOS Short Query 2: ATIbios32() returned %d
+7284:ATI_BIOS getRefreshRate: ATIbios32() returned %d
+7285:ATI_BIOS getRefreshRate: ah = 0x%x on return from ATIbios32()
+7286:ATI_BIOS: Data Segment size exceeded (0x%x)
+7287:ATI_BIOS %s: ATIbios32() returned %d
+7288:ATI_BIOS %s: ah = 0x%x on return from ATIbios32()
+7330:ATI68875
+7331:ATI68880
+7332:ATI68860
+7339:ATIbios16: invalid offset (0x%x)
+7342:@(#)PROGRAM:ATIRageDisplayDriver_reloc  PROJECT:drvATIRage-10.8  DEVELOPER:root  BUILT:NO DATE SET (-B used)
+7420:ATI.m
+7421:ATI_BIOS
+7424:ATIRageDisplayDriverVersion
+7426:ATIRageDisplayDriverKernelServerInstance
+7427:/Net/beseler/BinCache42/drvATIRage/Objects/drvATIRage-10.8.obj~3/i386_obj/ATIRageDisplayDriver_reloc.tproj/ATIRageDisplayDriver_instance.m
+7429:ATI_BIOS.m
+7501:ATIPresent:
+7529:driverKitVersionForATIRageDisplayDriver
+7557:ATIRageDisplayDriver# 
+7562:ATIRageDisplayDriver_instance2
+7563:.objc_category_name_ATI_BIOS_Private
+7564:.objc_category_name_ATI_ProgramDAC
+7565:.objc_class_name_ATI
+7566:.objc_class_name_ATIRageDisplayDriverKernelServerInstance
+7567:.objc_class_name_ATIRageDisplayDriverVersion
+7780:"Title" = "ATI Rage";
+7784:"Auto Detect IDs" = "0x47421002 0x43541002 0x47541002 0x47551002 0x47501002 0x47541002 0x4C471002 0x56541002";
+7786:"Driver Name" = "ATI";
+7796:"Server Name" = "ATIRageDisplayDriver";
+7798:"Driver Version" = "PROGRAM:ATIRageDisplayDriver PROJECT:drvATIRage-10.8 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+7799:"Title" = "ATI Rage";
+7803:"Auto Detect IDs" = "0x47421002 0x43541002 0x47541002 0x47551002 0x47501002 0x47541002 0x4C471002 0x56541002";
+7805:"Driver Name" = "ATI";
+7815:"Server Name" = "ATIRageDisplayDriver";
+7817:"Driver Version" = "PROGRAM:ATIRageDisplayDriver PROJECT:drvATIRage-10.8 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+7867:BusLogicFPSCSI
+7868:BusLogicFPSCSI_reloc
+7875:"Title" = "BusLogic FlashPoint PCI";
+7880:"Driver Name" = "BLFPController";
+7888:"Auto Detect IDs" = "0x8130104b";
+7889:"Server Name" = "BusLogicFPSCSI";
+7890:"Driver Version" = "PROGRAM:BusLogicFPSCSI PROJECT:drvBusLogicFP-7 DEVELOPER:root BUILT:NO DATE SET (-B used)";
+8030:\b\fs36 ATI Rage PCI/AGP-Bus Display Adapter\
+8047:\b0 \cf0 ATI Rage, Rage II and Rage Pro based display adapters with 4MB memory\
