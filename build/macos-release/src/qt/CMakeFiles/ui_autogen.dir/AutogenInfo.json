@@ -1,0 +1,756 @@
+{
+	"BUILD_DIR" : "/Users/wjk/Code/Whitebox/build/macos-release/src/qt/ui_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/wjk/Code/Whitebox/build/macos-release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/wjk/Code/Whitebox/build/macos-release/src/qt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/wjk/Code/Whitebox/src/qt",
+	"CMAKE_EXECUTABLE" : "/opt/homebrew/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/wjk/Code/Whitebox/src/qt/CMakeLists.txt",
+		"/opt/homebrew/share/cmake/Modules/FindThreads.cmake",
+		"/opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake",
+		"/opt/homebrew/share/cmake/Modules/CheckIncludeFile.cmake",
+		"/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake",
+		"/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake",
+		"/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/opt/homebrew/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/opt/homebrew/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake",
+		"/opt/homebrew/opt/qt@5/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake",
+		"/opt/homebrew/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/opt/homebrew/opt/sdl2/lib/cmake/SDL2/sdl2-config-version.cmake",
+		"/opt/homebrew/opt/sdl2/lib/cmake/SDL2/sdl2-config.cmake",
+		"/opt/homebrew/share/cmake/Modules/FeatureSummary.cmake",
+		"/opt/homebrew/share/cmake/Modules/InstallRequiredSystemLibraries.cmake",
+		"/Users/wjk/Code/Whitebox/src/qt/qt_translations.qrc.in",
+		"/Users/wjk/Code/Whitebox/src/qt_resources.qrc",
+		"/Users/wjk/Code/Whitebox/src/qt/qdarkstyle/dark/darkstyle.qrc",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/qt_translations.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/wjk/Code/Whitebox",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/Users/wjk/Code/Whitebox/build/macos-release/src/qt/ui_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "ui_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_about.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_about.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_cgasettingsdialog.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_cgasettingsdialog.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_deviceconfig.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_deviceconfig.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_downloader.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_downloader.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_filefield.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_filefield.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_harddiskdialog.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_harddiskdialog.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_harddrive_common.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_harddrive_common.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_iconindicators.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_iconindicators.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_joystickconfiguration.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_joystickconfiguration.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_keybind.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_keybind.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_machinestatus.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_machinestatus.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_mainwindow.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_mainwindow.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_mcadevicelist.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_mcadevicelist.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_mediahistorymanager.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_mediahistorymanager.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_mediamenu.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_mediamenu.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_models_common.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_models_common.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_newfloppydialog.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_newfloppydialog.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_openglrenderer.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_openglrenderer.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_openglshaderconfig.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_openglshaderconfig.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_openglshadermanagerdialog.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_openglshadermanagerdialog.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_progsettings.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_progsettings.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_renderercommon.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_renderercommon.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_rendererstack.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_rendererstack.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settings.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settings.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settings_bus_tracking.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settings_bus_tracking.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsdisplay.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsdisplay.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsfloppycdrom.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsfloppycdrom.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsharddisks.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsharddisks.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsinput.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsinput.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingskeybindings.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingskeybindings.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsmachine.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsmachine.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsnetwork.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsnetwork.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsotherperipherals.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsotherperipherals.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsotherremovable.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsotherremovable.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsports.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsports.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingssound.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingssound.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsstoragecontrollers.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_settingsstoragecontrollers.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_singlekeyseqedit.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_singlekeyseqedit.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_softwarerenderer.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_softwarerenderer.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_soundgain.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_soundgain.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_specifydimensions.h",
+			"MU",
+			"EWIEGA46WW/moc_qt_specifydimensions.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_styleoverride.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_styleoverride.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_unixmanagerfilter.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_unixmanagerfilter.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_util.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_util.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_addmachine.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_addmachine.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_clientsocket.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_clientsocket.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_config.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_config.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_details.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_details.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_detailsection.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_detailsection.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_listviewdelegate.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_listviewdelegate.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_main.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_main.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_mainwindow.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_mainwindow.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_model.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_model.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_preferences.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_preferences.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_protocol.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_protocol.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_serversocket.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_serversocket.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_system.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vmmanager_system.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vulkanrenderer.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vulkanrenderer.cpp",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vulkanwindowrenderer.hpp",
+			"MU",
+			"EWIEGA46WW/moc_qt_vulkanwindowrenderer.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/wjk/Code/Whitebox/build/macos-release/src/qt/ui_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/wjk/Code/Whitebox/build/macos-release/src/qt/ui_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"CMAKE",
+		"DISCORD",
+		"HAS_VDE",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"USE_DYNAREC",
+		"USE_NEW_DYNAREC",
+		"USE_RTMIDI"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt",
+		"/Users/wjk/Code/Whitebox/src/qt",
+		"/opt/homebrew/include/freetype2",
+		"/opt/homebrew/include",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/include",
+		"/Users/wjk/Code/Whitebox/src/include",
+		"/Users/wjk/Code/Whitebox/src/cpu",
+		"/Users/wjk/Code/Whitebox/src/codegen_new",
+		"/opt/homebrew/opt/qt@5/lib/QtGui.framework/Versions/5/Headers/5.15.18",
+		"/opt/homebrew/opt/qt@5/lib/QtGui.framework/Versions/5/Headers/5.15.18/QtGui",
+		"/opt/homebrew/opt/qt@5/lib/QtCore.framework/Versions/5/Headers/5.15.18",
+		"/opt/homebrew/opt/qt@5/lib/QtCore.framework/Versions/5/Headers/5.15.18/QtCore",
+		"/opt/homebrew/Cellar/sdl2/2.32.10/include",
+		"/opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2",
+		"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework",
+		"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers",
+		"/opt/homebrew/opt/qt@5/lib/QtGui.framework",
+		"/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/opt/homebrew/opt/qt@5/lib/QtCore.framework",
+		"/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers",
+		"/opt/homebrew/opt/qt@5/mkspecs/macx-clang",
+		"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework",
+		"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers",
+		"/opt/homebrew/opt/qt@5/lib/QtNetwork.framework",
+		"/opt/homebrew/opt/qt@5/lib/QtNetwork.framework/Headers",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include",
+		"/usr/local/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=c++17",
+		"-w",
+		"-dM",
+		"-E",
+		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/wjk/Code/Whitebox/build/macos-release/src/qt/ui_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_cgasettingsdialog.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_deviceconfig.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_filefield.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_harddiskdialog.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_joystickconfiguration.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_keybind.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_mainwindow.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_mcadevicelist.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_newfloppydialog.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_openglshaderconfig.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_openglshadermanagerdialog.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_progsettings.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_rendererstack.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settings.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsdisplay.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsfloppycdrom.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsharddisks.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsinput.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingskeybindings.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsmachine.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsnetwork.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsotherperipherals.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsotherremovable.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsports.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingssound.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsstoragecontrollers.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_soundgain.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_specifydimensions.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_details.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_detailsection.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_main.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_mainwindow.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_preferences.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 12,
+	"PARSE_CACHE_FILE" : "/Users/wjk/Code/Whitebox/build/macos-release/src/qt/CMakeFiles/ui_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/opt/homebrew/opt/qt@5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/opt/homebrew/opt/qt@5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/Users/wjk/Code/Whitebox/build/macos-release/src/qt/CMakeFiles/ui_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/Users/wjk/Code/Whitebox/src/qt/macos_event_filter.mm", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_about.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_cgasettingsdialog.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_deviceconfig.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_downloader.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_filefield.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_glsl_parser.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_harddiskdialog.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_harddrive_common.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_iconindicators.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_joystickconfiguration.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_keybind.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_machinestatus.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_mainwindow.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_mcadevicelist.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_mediahistorymanager.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_mediamenu.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_models_common.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_newfloppydialog.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_openglrenderer.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_openglshaderconfig.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_openglshadermanagerdialog.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_progsettings.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_renderercommon.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_rendererstack.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_settings.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settings_bus_tracking.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_settingsdisplay.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsfloppycdrom.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsharddisks.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_settingsinput.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingskeybindings.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_settingsmachine.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_settingsnetwork.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsotherperipherals.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsotherremovable.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_settingsports.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_settingssound.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_settingsstoragecontrollers.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_singlekeyseqedit.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_softwarerenderer.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_soundgain.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_specifydimensions.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_styleoverride.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_ui.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_unixmanagerfilter.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_util.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_addmachine.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_clientsocket.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_config.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_details.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_detailsection.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_listviewdelegate.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_main.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_mainwindow.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_model.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_preferences.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_protocol.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_serversocket.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_vmmanager_system.cpp", "MU", null ],
+		[ "/Users/wjk/Code/Whitebox/src/qt/qt_vulkanrenderer.cpp", "MU", null ],
+		[
+			"/Users/wjk/Code/Whitebox/src/qt/qt_vulkanwindowrenderer.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_cgasettingsdialog.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_deviceconfig.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_filefield.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_harddiskdialog.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_joystickconfiguration.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_keybind.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_mainwindow.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_mcadevicelist.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_newfloppydialog.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_openglshaderconfig.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_openglshadermanagerdialog.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_progsettings.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_rendererstack.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settings.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsdisplay.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsfloppycdrom.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsharddisks.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsinput.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingskeybindings.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsmachine.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsnetwork.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsotherperipherals.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsotherremovable.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsports.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingssound.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_settingsstoragecontrollers.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_soundgain.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_specifydimensions.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_details.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_detailsection.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_main.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_mainwindow.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/include/ui_qt_vmmanager_preferences.h",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/plat_autogen/mocs_compilation.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

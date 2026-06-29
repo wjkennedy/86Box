@@ -1,0 +1,35 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/wjk/Code/Whitebox/build/macos-release/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/cdrom/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/chipset/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/cpu/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/cpu/softfloat3e/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/codegen_new/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/device/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/disk/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/disk/minivhd/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/floppy/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/floppy/lzw/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/game/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/machine/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/mem/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/network/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/printer/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/sio/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/scsi/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/sound/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/sound/munt/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/sound/ayumi/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/sound/esfmu/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/sound/ymfm/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/sound/resid-fp/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/utils/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/video/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/mac/cmake_install.cmake",
+		"/Users/wjk/Code/Whitebox/build/macos-release/src/qt/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
